@@ -51,25 +51,27 @@ class KontrolSayfasi extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Kontrol Sayfası"),
       ),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          ElevatedButton(
-              onPressed: () {
-                Navigator.pushNamed(context, "/giris");
-              },
-              child: const Text("Giriş Sayfası")),
-          ElevatedButton(
-              onPressed: () {
-                Navigator.pushNamed(context, "/kayit");
-              },
-              child: const Text("Kayit Sayfası")),
-          ElevatedButton(
-              onPressed: () {
-                Navigator.pushNamed(context, "/profil");
-              },
-              child: const Text("Profil Sayfası")),
-        ],
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            ElevatedButton(
+                onPressed: () {
+                  Navigator.pushNamed(context, "/giris");
+                },
+                child: const Text("Giriş Sayfası")),
+            ElevatedButton(
+                onPressed: () {
+                  Navigator.pushNamed(context, "/kayit");
+                },
+                child: const Text("Kayit Sayfası")),
+            ElevatedButton(
+                onPressed: () {
+                  Navigator.pushNamed(context, "/profil");
+                },
+                child: const Text("Profil Sayfası")),
+          ],
+        ),
       ),
     );
   }

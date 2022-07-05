@@ -99,7 +99,10 @@ class _GirisSayfasiState extends State<GirisSayfasi> {
                           ),
                           child: TextButton(
                             onPressed: () {
-                              Navigator.pop(context);
+                              if (_girisFormu.currentState!.validate()) {
+                                debugPrint("Başarılı");
+                              }
+                              ;
                             },
                             child: const Text(
                               "Giriş Yap",

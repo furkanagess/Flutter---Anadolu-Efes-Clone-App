@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:ornek_kullanim1/kullanici/giris.dart';
 import 'package:ornek_kullanim1/kullanici/kayit.dart';
 import 'package:ornek_kullanim1/kullanici/profil.dart';
+import 'package:ornek_kullanim1/kullanici/sifreunuttum.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -35,6 +36,7 @@ void main() {
       "/giris": (context) => GirisSayfasi(),
       "/kayit": (context) => KayitSayfasi(),
       "/profil": (context) => ProfilSayfasi(),
+      "/unuttum": (context) => SifreUnuttum(),
     },
     initialRoute: "/giris",
   ));

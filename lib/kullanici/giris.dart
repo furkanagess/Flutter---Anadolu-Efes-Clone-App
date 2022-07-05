@@ -141,7 +141,9 @@ class _GirisSayfasiState extends State<GirisSayfasi> {
                         height: 10,
                       ),
                       TextButton(
-                          onPressed: () {},
+                          onPressed: () {
+                            Navigator.pushNamed(context, "/unuttum");
+                          },
                           child: const Text(
                             "Şifremi Unuttum ?",
                             style: TextStyle(color: Colors.blue),

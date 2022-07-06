@@ -38,7 +38,7 @@ void main() {
       "/profil": (context) => ProfilSayfasi(),
       "/unuttum": (context) => SifreUnuttum(),
     },
-    initialRoute: "/giris",
+    initialRoute: "/kontrol",
   ));
 }
 

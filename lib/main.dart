@@ -3,42 +3,47 @@ import 'package:ornek_kullanim1/kullanici/giris.dart';
 import 'package:ornek_kullanim1/kullanici/kayit.dart';
 import 'package:ornek_kullanim1/kullanici/profil.dart';
 import 'package:ornek_kullanim1/kullanici/sifreunuttum.dart';
+import 'package:ornek_kullanim1/yetki/yetki.dart';
+import 'package:ornek_kullanim1/yetki/yetkisaglayici.dart';
 
 void main() {
-  runApp(MaterialApp(
-    debugShowCheckedModeBanner: false,
-    theme: ThemeData(
-      inputDecorationTheme: const InputDecorationTheme(
-        enabledBorder: OutlineInputBorder(
-          borderSide: BorderSide(
-            color: Color.fromARGB(255, 15, 38, 156),
+  runApp(YetkiSaglayici(
+    yetki: Yetki(),
+    child: MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        inputDecorationTheme: const InputDecorationTheme(
+          enabledBorder: OutlineInputBorder(
+            borderSide: BorderSide(
+              color: Color.fromARGB(255, 15, 38, 156),
+            ),
           ),
-        ),
-        focusedBorder: OutlineInputBorder(
-          borderSide: BorderSide(
-            color: Color.fromARGB(255, 15, 38, 156),
+          focusedBorder: OutlineInputBorder(
+            borderSide: BorderSide(
+              color: Color.fromARGB(255, 15, 38, 156),
+            ),
           ),
-        ),
-        errorBorder: OutlineInputBorder(
-          borderSide: BorderSide(
-            color: Colors.red,
+          errorBorder: OutlineInputBorder(
+            borderSide: BorderSide(
+              color: Colors.red,
+            ),
           ),
-        ),
-        focusedErrorBorder: OutlineInputBorder(
-          borderSide: BorderSide(
-            color: Colors.red,
+          focusedErrorBorder: OutlineInputBorder(
+            borderSide: BorderSide(
+              color: Colors.red,
+            ),
           ),
         ),
       ),
+      routes: {
+        "/kontrol": (context) => KontrolSayfasi(),
+        "/giris": (context) => GirisSayfasi(),
+        "/kayit": (context) => KayitSayfasi(),
+        "/profil": (context) => ProfilSayfasi(),
+        "/unuttum": (context) => SifreUnuttum(),
+      },
+      initialRoute: "/kontrol",
     ),
-    routes: {
-      "/kontrol": (context) => KontrolSayfasi(),
-      "/giris": (context) => GirisSayfasi(),
-      "/kayit": (context) => KayitSayfasi(),
-      "/profil": (context) => ProfilSayfasi(),
-      "/unuttum": (context) => SifreUnuttum(),
-    },
-    initialRoute: "/kontrol",
   ));
 }
 

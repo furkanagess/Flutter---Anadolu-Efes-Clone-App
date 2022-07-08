@@ -1,13 +1,9 @@
 import 'package:flutter/material.dart';
-
-import 'package:ornek_kullanim1/yetki/yetki.dart';
-import 'package:ornek_kullanim1/yetki/yetkiKontrol.dart';
-import 'package:ornek_kullanim1/yetki/yetkisaglayici.dart';
+import 'package:ornek_kullanim1/kullanici/giris.dart';
 
 void main() {
-  runApp(YetkiSaglayici(
-    yetki: Yetki(),
-    child: MaterialApp(
+  runApp(
+    MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         inputDecorationTheme: const InputDecorationTheme(
@@ -33,7 +29,7 @@ void main() {
           ),
         ),
       ),
-      home: YetkiKontrol(),
+      home: GirisSayfasi(),
     ),
-  ));
+  );
 }

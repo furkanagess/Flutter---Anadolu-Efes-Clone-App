@@ -22,7 +22,7 @@ class _ProfilSayfasiState extends State<ProfilSayfasi> {
 
   @override
   Widget build(BuildContext context) {
-    debugPrint("Build Calisti" + context.toString());
+    debugPrint("Build Calisti$context");
     return Scaffold(
       appBar: AppBar(
         title: const Text("Profil Sayfası"),

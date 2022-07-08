@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ornek_kullanim1/kullanici/kayit.dart';
 
 class GirisSayfasi extends StatefulWidget {
   GirisSayfasi({Key? key}) : super(key: key);
@@ -131,7 +132,10 @@ class _GirisSayfasiState extends State<GirisSayfasi> {
                           ),
                           child: TextButton(
                             onPressed: () {
-                              Navigator.pushNamed(context, "/kayit");
+                              Navigator.pushReplacement(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: ((context) => KayitSayfasi())));
                             },
                             child: const Text(
                               "Üye Ol",

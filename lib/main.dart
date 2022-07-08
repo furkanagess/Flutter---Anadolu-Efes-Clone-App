@@ -19,7 +19,7 @@ void main() {
           ),
           errorBorder: OutlineInputBorder(
             borderSide: BorderSide(
-              color: Colors.red,
+              color: Color.fromARGB(255, 157, 56, 49),
             ),
           ),
           focusedErrorBorder: OutlineInputBorder(

@@ -25,7 +25,7 @@ class _GirisSayfasiState extends State<GirisSayfasi> {
     return Scaffold(
       body: Center(
         child: Container(
-          color: const Color.fromARGB(255, 220, 226, 232),
+          color: Color.fromARGB(255, 244, 250, 255),
           child: Column(
             children: [
               Expanded(
@@ -68,7 +68,7 @@ class _GirisSayfasiState extends State<GirisSayfasi> {
                             if (deger!.length < 8) {
                               return "Geçersiz Şifre";
                             } else {
-                              return "Geçerli Şifre";
+                              Navigator.pushNamed(context, "/profil");
                             }
                           },
                           controller: _sifreKontrol,
@@ -101,7 +101,7 @@ class _GirisSayfasiState extends State<GirisSayfasi> {
                           child: TextButton(
                             onPressed: () {
                               if (_girisFormu.currentState!.validate()) {
-                                debugPrint("Başarılı");
+                                Navigator.pushNamed(context, "/profil");
                               }
                               ;
                             },
@@ -132,10 +132,7 @@ class _GirisSayfasiState extends State<GirisSayfasi> {
                           ),
                           child: TextButton(
                             onPressed: () {
-                              Navigator.pushReplacement(
-                                  context,
-                                  MaterialPageRoute(
-                                      builder: ((context) => KayitSayfasi())));
+                              Navigator.pushNamed(context, "/kayit");
                             },
                             child: const Text(
                               "Üye Ol",
@@ -154,7 +151,15 @@ class _GirisSayfasiState extends State<GirisSayfasi> {
                           child: const Text(
                             "Şifremi Unuttum ?",
                             style: TextStyle(color: Colors.blue),
-                          ))
+                          )),
+                      TextButton(
+                          onPressed: () {
+                            Navigator.pushNamed(context, "/profil");
+                          },
+                          child: const Text(
+                            "Üye Olmadan Devam Et",
+                            style: TextStyle(color: Colors.blue),
+                          )),
                     ],
                   ),
                 ),

@@ -37,7 +37,7 @@ class _KayitSayfasiState extends State<KayitSayfasi> {
     return Scaffold(
       body: Center(
         child: Container(
-          color: const Color.fromARGB(255, 220, 226, 232),
+          color: const Color.fromARGB(255, 244, 250, 255),
           child: Column(
             children: [
               Expanded(

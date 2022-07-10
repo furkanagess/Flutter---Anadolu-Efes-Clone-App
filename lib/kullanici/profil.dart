@@ -17,13 +17,12 @@ class _ProfilSayfasiState extends State<ProfilSayfasi> {
       body: const Center(child: Text("Profil")),
       bottomNavigationBar: BottomNavigationBar(items: const [
         BottomNavigationBarItem(
-          icon: Icon(
-            Icons.sports_basketball,
-            color: Color.fromARGB(255, 4, 3, 91),
-            size: 30,
-          ),
-          label: "Anasayfa",
-        ),
+            icon: Icon(
+              Icons.sports_basketball_outlined,
+              color: Color.fromARGB(255, 4, 3, 91),
+              size: 30,
+            ),
+            label: "Duyurular"),
         BottomNavigationBarItem(
             icon: Icon(
               Icons.flag_circle_outlined,

@@ -10,8 +10,14 @@ class Duyurular extends StatefulWidget {
 class _DuyurularState extends State<Duyurular> {
   @override
   Widget build(BuildContext context) {
-    return const Center(
-      child: Text("Duyurular"),
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text(
+          "Anadolu Efes Fan Club  \n         Kampanyaları",
+          style: TextStyle(color: Colors.blueAccent),
+        ),
+        backgroundColor: const Color.fromARGB(255, 244, 250, 255),
+      ),
     );
   }
 }

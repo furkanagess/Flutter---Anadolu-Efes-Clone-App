@@ -13,9 +13,9 @@ class ProfilSayfasi extends StatefulWidget {
 class _ProfilSayfasiState extends State<ProfilSayfasi> {
   int aktifTab = 0;
   List<Widget> sayfalar = [
+    Anasayfa(),
     Duyurular(),
     ProfilSayfasi(),
-    Anasayfa(),
     MenuSayfasi(),
   ];
   @override
@@ -26,7 +26,6 @@ class _ProfilSayfasiState extends State<ProfilSayfasi> {
       ),
       body: sayfalar[aktifTab],
       bottomNavigationBar: BottomNavigationBar(
-          type: BottomNavigationBarType.shifting,
           currentIndex: aktifTab,
           onTap: (index) {
             aktifTab = index;

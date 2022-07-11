@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ornek_kullanim1/duyurular/konix.dart';
 import 'package:ornek_kullanim1/kullanici/giris.dart';
 import 'package:ornek_kullanim1/kullanici/kayit.dart';
 import 'package:ornek_kullanim1/kullanici/profil.dart';
@@ -14,6 +15,7 @@ void main() {
         "/kayit": (context) => KayitSayfasi(),
         "/profil": (context) => ProfilSayfasi(),
         "/unuttum": (context) => SifreUnuttum(),
+        "/konix": (context) => KonixDuyurusu(),
       },
       theme: ThemeData(
         inputDecorationTheme: const InputDecorationTheme(

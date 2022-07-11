@@ -18,6 +18,9 @@ class _DuyurularState extends State<Duyurular> {
         ),
         backgroundColor: const Color.fromARGB(255, 244, 250, 255),
       ),
+      body: const Center(
+        child: Text("Duyurular"),
+      ),
     );
   }
 }

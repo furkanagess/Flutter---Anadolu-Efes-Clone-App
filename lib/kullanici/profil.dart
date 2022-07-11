@@ -12,7 +12,7 @@ class ProfilSayfasi extends StatefulWidget {
 
 class _ProfilSayfasiState extends State<ProfilSayfasi> {
   int aktifTab = 0;
-  List<Widget> sayfalar = [
+  var sayfaListesi = [
     Anasayfa(),
     Duyurular(),
     ProfilSayfasi(),
@@ -21,10 +21,7 @@ class _ProfilSayfasiState extends State<ProfilSayfasi> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Profil Sayfası"),
-      ),
-      body: sayfalar[aktifTab],
+      body: sayfaListesi[aktifTab],
       bottomNavigationBar: BottomNavigationBar(
           currentIndex: aktifTab,
           onTap: (index) {
@@ -38,7 +35,7 @@ class _ProfilSayfasiState extends State<ProfilSayfasi> {
                   color: Color.fromARGB(255, 4, 3, 91),
                   size: 30,
                 ),
-                label: "Duyurular"),
+                label: "Anasayfa"),
             BottomNavigationBarItem(
                 icon: Icon(
                   Icons.flag_circle_outlined,

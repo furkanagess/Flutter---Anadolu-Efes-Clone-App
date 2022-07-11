@@ -31,13 +31,21 @@ class _DuyurularState extends State<Duyurular> {
                       ),
                     ),
                     TextButton(
-                        onPressed: () {
-                          Navigator.pushNamed(context, "/konix");
-                        },
-                        child: const Text(
-                          "Konix'ten Fan Club'Lılara %25 İndirim!",
-                          style: TextStyle(color: Colors.blue),
-                        )),
+                      onPressed: () {
+                        Navigator.pushNamed(context, "/konix");
+                      },
+                      child: const Text(
+                        "Konix'ten Fan Club'Lılara %25 İndirim!",
+                        style: TextStyle(color: Colors.blue),
+                      ),
+                    ),
+                    ElevatedButton.icon(
+                      onPressed: () {
+                        Navigator.pushNamed(context, "/konix");
+                      },
+                      icon: const Icon(Icons.arrow_right_sharp),
+                      label: const Text("Kampanya Detayı"),
+                    )
                   ],
                 ),
               ),

@@ -10,8 +10,10 @@ class KonixDuyurusu extends StatefulWidget {
 class _KonixDuyurusuState extends State<KonixDuyurusu> {
   @override
   Widget build(BuildContext context) {
-    return const Center(
-      child: Text("Konix Duyurusu"),
+    return Scaffold(
+      body: Center(
+        child: Text("Konix Duyurusu"),
+      ),
     );
   }
 }

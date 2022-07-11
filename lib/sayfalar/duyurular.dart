@@ -14,7 +14,9 @@ class _DuyurularState extends State<Duyurular> {
       appBar: AppBar(
         title: const Text(
           "Anadolu Efes Fan Club  \n         Kampanyaları",
-          style: TextStyle(color: Color.fromARGB(255, 27, 126, 172)),
+          style: TextStyle(
+            color: Color.fromARGB(255, 27, 126, 172),
+          ),
         ),
         backgroundColor: const Color.fromARGB(255, 244, 250, 255),
       ),
@@ -35,17 +37,31 @@ class _DuyurularState extends State<Duyurular> {
                         Navigator.pushNamed(context, "/konix");
                       },
                       child: const Text(
-                        "Konix'ten Fan Club'Lılara %25 İndirim!",
-                        style: TextStyle(color: Colors.blue),
+                        "Konix'ten Fan Club'lılara %25 İndirim!",
+                        style: TextStyle(color: Colors.blue, fontSize: 15),
                       ),
                     ),
-                    ElevatedButton.icon(
-                      onPressed: () {
-                        Navigator.pushNamed(context, "/konix");
-                      },
-                      icon: const Icon(Icons.arrow_right_sharp),
-                      label: const Text("Kampanya Detayı"),
-                    )
+                    Container(
+                      width: double.infinity,
+                      child: ElevatedButton.icon(
+                          onPressed: () {
+                            Navigator.pushNamed(context, "/konix");
+                          },
+                          icon: const Icon(
+                            Icons.arrow_right_alt,
+                            size: 35,
+                            color: Color.fromARGB(255, 27, 126, 172),
+                          ),
+                          label: const Text(
+                            "Kampanya Detayı",
+                            style: TextStyle(
+                                color: Color.fromARGB(255, 27, 126, 172)),
+                          ),
+                          style: ElevatedButton.styleFrom(
+                            primary: Color.fromARGB(255, 244, 250, 255),
+                            shadowColor: Color.fromARGB(255, 244, 250, 255),
+                          )),
+                    ),
                   ],
                 ),
               ),

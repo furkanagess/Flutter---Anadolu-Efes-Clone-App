@@ -46,14 +46,14 @@ class _ProfilSayfasiState extends State<ProfilSayfasi> {
               label: "Duyurular"),
           BottomNavigationBarItem(
               icon: Icon(
-                Icons.people,
+                Icons.person,
                 color: Color.fromARGB(255, 4, 3, 91),
                 size: 30,
               ),
               label: "Profil"),
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.menu_rounded,
+              Icons.menu,
               color: Color.fromARGB(255, 4, 3, 91),
               size: 30,
             ),

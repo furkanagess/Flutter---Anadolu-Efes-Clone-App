@@ -12,7 +12,7 @@ class _KombineDuyurusuState extends State<KombineDuyurusu> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text("Konix Duyurusu"),
+        child: Text("Kombine Duyurusu"),
       ),
     );
   }

@@ -52,14 +52,15 @@ class _KayitSayfasiState extends State<KayitSayfasi> {
                       Row(
                         children: [
                           IconButton(
-                              onPressed: () {
-                                Navigator.pop(context);
-                              },
-                              icon: const Icon(
-                                Icons.arrow_back_sharp,
-                                size: 35,
-                                color: Color.fromARGB(255, 34, 5, 197),
-                              )),
+                            onPressed: () {
+                              Navigator.pop(context);
+                            },
+                            icon: const Icon(
+                              Icons.arrow_back_sharp,
+                              size: 35,
+                              color: Color.fromARGB(255, 34, 5, 197),
+                            ),
+                          ),
                         ],
                       ),
                       Container(

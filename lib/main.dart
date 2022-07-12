@@ -6,6 +6,7 @@ import 'package:ornek_kullanim1/duyurular/moov.dart';
 import 'package:ornek_kullanim1/kullanici/giris.dart';
 import 'package:ornek_kullanim1/kullanici/kayit.dart';
 import 'package:ornek_kullanim1/kullanici/profil.dart';
+import 'package:ornek_kullanim1/sayfalar/duyurular.dart';
 
 import 'kullanici/sifreunuttum.dart';
 
@@ -22,6 +23,7 @@ void main() {
         "/kombine": (context) => KombineDuyurusu(),
         "/konser": (context) => KonserDuyurusu(),
         "/moov": (context) => MoovDuyurusu(),
+        "/duyurular": (context) => Duyurular(),
       },
       theme: ThemeData(
         inputDecorationTheme: const InputDecorationTheme(

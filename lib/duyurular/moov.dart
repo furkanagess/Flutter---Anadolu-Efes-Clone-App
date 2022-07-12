@@ -15,7 +15,7 @@ class _MoovDuyurusuState extends State<MoovDuyurusu> {
         centerTitle: true,
         leading: IconButton(
           onPressed: () {
-            Navigator.pushNamed(context, "/duyurular");
+            Navigator.pop(context);
           },
           icon: const Icon(
             Icons.arrow_back_sharp,

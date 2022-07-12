@@ -85,7 +85,7 @@ class _DuyurularState extends State<Duyurular> {
                     ),
                     TextButton(
                       onPressed: () {
-                        Navigator.pushNamed(context, "/konix");
+                        Navigator.pushNamed(context, "/kombine");
                       },
                       child: const Text(
                         "Yeni Sezon Kombinelerinde Fan Club'Lılara Özel %20 İndirim!",
@@ -97,7 +97,7 @@ class _DuyurularState extends State<Duyurular> {
                       width: double.infinity,
                       child: ElevatedButton.icon(
                         onPressed: () {
-                          Navigator.pushNamed(context, "/konix");
+                          Navigator.pushNamed(context, "/kombine");
                         },
                         icon: const Icon(
                           Icons.arrow_right_alt,
@@ -128,7 +128,7 @@ class _DuyurularState extends State<Duyurular> {
                     ),
                     TextButton(
                       onPressed: () {
-                        Navigator.pushNamed(context, "/konix");
+                        Navigator.pushNamed(context, "/moov");
                       },
                       child: const Text(
                         "MOOV'dan Fan Club'lılara Özel %15 İndirim!",
@@ -140,7 +140,7 @@ class _DuyurularState extends State<Duyurular> {
                       width: double.infinity,
                       child: ElevatedButton.icon(
                         onPressed: () {
-                          Navigator.pushNamed(context, "/konix");
+                          Navigator.pushNamed(context, "/moov");
                         },
                         icon: const Icon(
                           Icons.arrow_right_alt,
@@ -171,7 +171,7 @@ class _DuyurularState extends State<Duyurular> {
                     ),
                     TextButton(
                       onPressed: () {
-                        Navigator.pushNamed(context, "/konix");
+                        Navigator.pushNamed(context, "/konser");
                       },
                       child: const Text(
                         "IF Beşiktaş 15 Temmuz Pinhani Konserinden Fan Club'lılara Hediye Biletler!",
@@ -183,7 +183,7 @@ class _DuyurularState extends State<Duyurular> {
                       width: double.infinity,
                       child: ElevatedButton.icon(
                         onPressed: () {
-                          Navigator.pushNamed(context, "/konix");
+                          Navigator.pushNamed(context, "/konser");
                         },
                         icon: const Icon(
                           Icons.arrow_right_alt,
@@ -214,7 +214,7 @@ class _DuyurularState extends State<Duyurular> {
                     ),
                     TextButton(
                       onPressed: () {
-                        Navigator.pushNamed(context, "/konix");
+                        Navigator.pushNamed(context, "/konser");
                       },
                       child: const Text(
                         "IF Beşiktaş 17 Temmuz Onur Özdemir Konserinden Fan Club'lılara Hediye Biletler!",
@@ -226,7 +226,7 @@ class _DuyurularState extends State<Duyurular> {
                       width: double.infinity,
                       child: ElevatedButton.icon(
                         onPressed: () {
-                          Navigator.pushNamed(context, "/konix");
+                          Navigator.pushNamed(context, "/konser");
                         },
                         icon: const Icon(
                           Icons.arrow_right_alt,
@@ -257,7 +257,7 @@ class _DuyurularState extends State<Duyurular> {
                     ),
                     TextButton(
                       onPressed: () {
-                        Navigator.pushNamed(context, "/konix");
+                        Navigator.pushNamed(context, "/konser");
                       },
                       child: const Text(
                         "IF Beşiktaş 22 Temmuz Can Bonomo Konserinden Fan Club'lılara Hediye Biletler!",
@@ -269,7 +269,7 @@ class _DuyurularState extends State<Duyurular> {
                       width: double.infinity,
                       child: ElevatedButton.icon(
                         onPressed: () {
-                          Navigator.pushNamed(context, "/konix");
+                          Navigator.pushNamed(context, "/konser");
                         },
                         icon: const Icon(
                           Icons.arrow_right_alt,
@@ -300,7 +300,7 @@ class _DuyurularState extends State<Duyurular> {
                     ),
                     TextButton(
                       onPressed: () {
-                        Navigator.pushNamed(context, "/konix");
+                        Navigator.pushNamed(context, "/konser");
                       },
                       child: const Text(
                         "IF Beşiktaş 25 Temmuz Şebnem Ferah Konserinden Fan Club'lılara Hediye Biletler!",
@@ -312,7 +312,7 @@ class _DuyurularState extends State<Duyurular> {
                       width: double.infinity,
                       child: ElevatedButton.icon(
                         onPressed: () {
-                          Navigator.pushNamed(context, "/konix");
+                          Navigator.pushNamed(context, "/konser");
                         },
                         icon: const Icon(
                           Icons.arrow_right_alt,
@@ -343,7 +343,7 @@ class _DuyurularState extends State<Duyurular> {
                     ),
                     TextButton(
                       onPressed: () {
-                        Navigator.pushNamed(context, "/konix");
+                        Navigator.pushNamed(context, "/konser");
                       },
                       child: const Text(
                         "IF Beşiktaş 28 Temmuz Duman Konserinden Fan Club'lılara Hediye Biletler!",
@@ -355,7 +355,7 @@ class _DuyurularState extends State<Duyurular> {
                       width: double.infinity,
                       child: ElevatedButton.icon(
                         onPressed: () {
-                          Navigator.pushNamed(context, "/konix");
+                          Navigator.pushNamed(context, "/konser");
                         },
                         icon: const Icon(
                           Icons.arrow_right_alt,

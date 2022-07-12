@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:ornek_kullanim1/duyurular/kombine.dart';
 import 'package:ornek_kullanim1/duyurular/konix.dart';
+import 'package:ornek_kullanim1/duyurular/konser.dart';
+import 'package:ornek_kullanim1/duyurular/moov.dart';
 import 'package:ornek_kullanim1/kullanici/giris.dart';
 import 'package:ornek_kullanim1/kullanici/kayit.dart';
 import 'package:ornek_kullanim1/kullanici/profil.dart';
@@ -16,6 +19,9 @@ void main() {
         "/profil": (context) => ProfilSayfasi(),
         "/unuttum": (context) => SifreUnuttum(),
         "/konix": (context) => KonixDuyurusu(),
+        "/kombine": (context) => KombineDuyurusu(),
+        "/konser": (context) => KonserDuyurusu(),
+        "/moov": (context) => MoovDuyurusu(),
       },
       theme: ThemeData(
         inputDecorationTheme: const InputDecorationTheme(

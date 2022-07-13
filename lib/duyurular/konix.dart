@@ -99,49 +99,49 @@ class _KonixDuyurusuState extends State<KonixDuyurusu> {
                     const Padding(
                       padding: EdgeInsets.fromLTRB(8, 2, 8, 2),
                       child: Text(
-                        "-Kampanya içeriğini www.konix.com.tr adresinde geçerli tek kullanımlık indirim kodları oluşturmaktadır.",
+                        "-- Kampanya içeriğini www.konix.com.tr adresinde geçerli tek kullanımlık indirim kodları oluşturmaktadır.",
                         style: TextStyle(fontSize: 10, color: Colors.grey),
                       ),
                     ),
                     const Padding(
                       padding: EdgeInsets.fromLTRB(8, 2, 8, 2),
                       child: Text(
-                        "Her Fan Club üyesi kampanyaya en fazla 10 kez katılabilir",
+                        "-- Her Fan Club üyesi kampanyaya en fazla 10 kez katılabilir",
                         style: TextStyle(fontSize: 10, color: Colors.grey),
                       ),
                     ),
                     const Padding(
                       padding: EdgeInsets.fromLTRB(8, 2, 8, 2),
                       child: Text(
-                        "Tüm Fan Club indirim kodları tek kullanımlıktır.",
+                        "-- Tüm Fan Club indirim kodları tek kullanımlıktır.",
                         style: TextStyle(fontSize: 10, color: Colors.grey),
                       ),
                     ),
                     const Padding(
                       padding: EdgeInsets.fromLTRB(8, 2, 8, 2),
                       child: Text(
-                        "Fan Club indirim kodu www.konix.com.tr adresinden oluşturulan dijital üyelik sonrası yapılan Anadolu Efes Spor Kulübü ürünleri alışverişlerinde Sepetim sayfasında bulunan Hediye Çekleri bölümünden girilerek indirim uygulanır",
+                        "-- Fan Club indirim kodu www.konix.com.tr adresinden oluşturulan dijital üyelik sonrası yapılan Anadolu Efes Spor Kulübü ürünleri alışverişlerinde Sepetim sayfasında bulunan Hediye Çekleri bölümünden girilerek indirim uygulanır",
                         style: TextStyle(fontSize: 10, color: Colors.grey),
                       ),
                     ),
                     const Padding(
                       padding: EdgeInsets.fromLTRB(8, 2, 8, 2),
                       child: Text(
-                        "Fan Club kampanyasından faydalanabilmek için herhangi bir alt veya üst harcama sınırı bulunmamaktadır",
+                        "-- Fan Club kampanyasından faydalanabilmek için herhangi bir alt veya üst harcama sınırı bulunmamaktadır",
                         style: TextStyle(fontSize: 10, color: Colors.grey),
                       ),
                     ),
                     const Padding(
                       padding: EdgeInsets.fromLTRB(8, 2, 8, 2),
                       child: Text(
-                        "-Kampanya içeriğini www.konix.com.tr adresinde geçerli tek kullanımlık indirim kodları oluşturmaktadır.",
+                        "-- Fan Club Kampanyası 30.06.2020 yarihi saat 23.59'a kadar geçerli olup, Konix'in naşka kampanyaları ile birleştirilemez",
                         style: TextStyle(fontSize: 10, color: Colors.grey),
                       ),
                     ),
                     const Padding(
                       padding: EdgeInsets.fromLTRB(8, 2, 8, 2),
                       child: Text(
-                        "-Kampanya içeriğini www.konix.com.tr adresinde geçerli tek kullanımlık indirim kodları oluşturmaktadır.",
+                        "-- Kampanya içeriğini www.konix.com.tr adresinde geçerli tek kullanımlık indirim kodları oluşturmaktadır.",
                         style: TextStyle(fontSize: 10, color: Colors.grey),
                       ),
                     ),

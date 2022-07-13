@@ -84,7 +84,14 @@ class _KonixDuyurusuState extends State<KonixDuyurusu> {
                         ),
                         child: TextButton(
                           onPressed: () {
-                            Navigator.pushNamed(context, "/kayit");
+                            showDialog(
+                              context: context,
+                              builder: (BuildContext context) {
+                                return const AlertDialog(
+                                  content: Text("Kampanyaya Katıldınız !"),
+                                );
+                              },
+                            );
                           },
                           child: const Text(
                             "Kampanyaya Katıl !",

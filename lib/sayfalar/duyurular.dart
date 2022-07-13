@@ -64,13 +64,14 @@ class _DuyurularState extends State<Duyurular> {
                         },
                         icon: const Icon(
                           Icons.arrow_right_alt,
-                          size: 35,
+                          size: 40,
                           color: Color.fromARGB(255, 27, 126, 172),
                         ),
                         label: const Text(
                           "Kampanya Detayı",
                           style: TextStyle(
                             color: Color.fromARGB(255, 27, 126, 172),
+                            fontSize: 17,
                           ),
                         ),
                         style: ElevatedButton.styleFrom(
@@ -113,13 +114,15 @@ class _DuyurularState extends State<Duyurular> {
                         },
                         icon: const Icon(
                           Icons.arrow_right_alt,
-                          size: 35,
+                          size: 40,
                           color: Color.fromARGB(255, 27, 126, 172),
                         ),
                         label: const Text(
                           "Kampanya Detayı",
                           style: TextStyle(
-                              color: Color.fromARGB(255, 27, 126, 172)),
+                            color: Color.fromARGB(255, 27, 126, 172),
+                            fontSize: 17,
+                          ),
                         ),
                         style: ElevatedButton.styleFrom(
                           primary: Color.fromARGB(255, 244, 250, 255),
@@ -162,13 +165,15 @@ class _DuyurularState extends State<Duyurular> {
                         },
                         icon: const Icon(
                           Icons.arrow_right_alt,
-                          size: 35,
+                          size: 40,
                           color: Color.fromARGB(255, 27, 126, 172),
                         ),
                         label: const Text(
                           "Kampanya Detayı",
                           style: TextStyle(
-                              color: Color.fromARGB(255, 27, 126, 172)),
+                            color: Color.fromARGB(255, 27, 126, 172),
+                            fontSize: 17,
+                          ),
                         ),
                         style: ElevatedButton.styleFrom(
                           primary: Color.fromARGB(255, 244, 250, 255),
@@ -211,13 +216,15 @@ class _DuyurularState extends State<Duyurular> {
                         },
                         icon: const Icon(
                           Icons.arrow_right_alt,
-                          size: 35,
+                          size: 40,
                           color: Color.fromARGB(255, 27, 126, 172),
                         ),
                         label: const Text(
                           "Kampanya Detayı",
                           style: TextStyle(
-                              color: Color.fromARGB(255, 27, 126, 172)),
+                            color: Color.fromARGB(255, 27, 126, 172),
+                            fontSize: 17,
+                          ),
                         ),
                         style: ElevatedButton.styleFrom(
                           primary: Color.fromARGB(255, 244, 250, 255),
@@ -260,13 +267,15 @@ class _DuyurularState extends State<Duyurular> {
                         },
                         icon: const Icon(
                           Icons.arrow_right_alt,
-                          size: 35,
+                          size: 40,
                           color: Color.fromARGB(255, 27, 126, 172),
                         ),
                         label: const Text(
                           "Kampanya Detayı",
                           style: TextStyle(
-                              color: Color.fromARGB(255, 27, 126, 172)),
+                            color: Color.fromARGB(255, 27, 126, 172),
+                            fontSize: 17,
+                          ),
                         ),
                         style: ElevatedButton.styleFrom(
                           primary: Color.fromARGB(255, 244, 250, 255),
@@ -309,13 +318,15 @@ class _DuyurularState extends State<Duyurular> {
                         },
                         icon: const Icon(
                           Icons.arrow_right_alt,
-                          size: 35,
+                          size: 40,
                           color: Color.fromARGB(255, 27, 126, 172),
                         ),
                         label: const Text(
                           "Kampanya Detayı",
                           style: TextStyle(
-                              color: Color.fromARGB(255, 27, 126, 172)),
+                            color: Color.fromARGB(255, 27, 126, 172),
+                            fontSize: 17,
+                          ),
                         ),
                         style: ElevatedButton.styleFrom(
                           primary: Color.fromARGB(255, 244, 250, 255),
@@ -358,13 +369,15 @@ class _DuyurularState extends State<Duyurular> {
                         },
                         icon: const Icon(
                           Icons.arrow_right_alt,
-                          size: 35,
+                          size: 40,
                           color: Color.fromARGB(255, 27, 126, 172),
                         ),
                         label: const Text(
                           "Kampanya Detayı",
                           style: TextStyle(
-                              color: Color.fromARGB(255, 27, 126, 172)),
+                            color: Color.fromARGB(255, 27, 126, 172),
+                            fontSize: 17,
+                          ),
                         ),
                         style: ElevatedButton.styleFrom(
                           primary: Color.fromARGB(255, 244, 250, 255),
@@ -407,13 +420,270 @@ class _DuyurularState extends State<Duyurular> {
                         },
                         icon: const Icon(
                           Icons.arrow_right_alt,
-                          size: 35,
+                          size: 40,
                           color: Color.fromARGB(255, 27, 126, 172),
                         ),
                         label: const Text(
                           "Kampanya Detayı",
                           style: TextStyle(
-                              color: Color.fromARGB(255, 27, 126, 172)),
+                            color: Color.fromARGB(255, 27, 126, 172),
+                            fontSize: 17,
+                          ),
+                        ),
+                        style: ElevatedButton.styleFrom(
+                          primary: Color.fromARGB(255, 244, 250, 255),
+                          shadowColor: Color.fromARGB(255, 244, 250, 255),
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(0, 15, 0, 0),
+                      child: Container(
+                        child: Center(
+                          child: Image.asset("assets/resimler/konser.png"),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 5,
+                    ),
+                    Container(
+                      decoration: BoxDecoration(
+                        color: Color.fromARGB(255, 244, 250, 255),
+                      ),
+                      child: TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/konser");
+                        },
+                        child: const Text(
+                          "IF Beşiktaş 1 Ağustos Hayko Cepkin Konserinden Fan Club'lılara Hediye Biletler!",
+                          style: TextStyle(
+                              color: Color.fromARGB(255, 4, 3, 91),
+                              fontSize: 15),
+                        ),
+                      ),
+                    ),
+                    Container(
+                      width: double.infinity,
+                      child: ElevatedButton.icon(
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/konser");
+                        },
+                        icon: const Icon(
+                          Icons.arrow_right_alt,
+                          size: 40,
+                          color: Color.fromARGB(255, 27, 126, 172),
+                        ),
+                        label: const Text(
+                          "Kampanya Detayı",
+                          style: TextStyle(
+                            color: Color.fromARGB(255, 27, 126, 172),
+                            fontSize: 17,
+                          ),
+                        ),
+                        style: ElevatedButton.styleFrom(
+                          primary: Color.fromARGB(255, 244, 250, 255),
+                          shadowColor: Color.fromARGB(255, 244, 250, 255),
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(0, 15, 0, 0),
+                      child: Container(
+                        child: Center(
+                          child: Image.asset("assets/resimler/konser.png"),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 5,
+                    ),
+                    Container(
+                      decoration: BoxDecoration(
+                        color: Color.fromARGB(255, 244, 250, 255),
+                      ),
+                      child: TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/konser");
+                        },
+                        child: const Text(
+                          "IF Beşiktaş 4 Ağustos Fatma Turgut Konserinden Fan Club'lılara Hediye Biletler!",
+                          style: TextStyle(
+                              color: Color.fromARGB(255, 4, 3, 91),
+                              fontSize: 15),
+                        ),
+                      ),
+                    ),
+                    Container(
+                      width: double.infinity,
+                      child: ElevatedButton.icon(
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/konser");
+                        },
+                        icon: const Icon(
+                          Icons.arrow_right_alt,
+                          size: 40,
+                          color: Color.fromARGB(255, 27, 126, 172),
+                        ),
+                        label: const Text(
+                          "Kampanya Detayı",
+                          style: TextStyle(
+                            color: Color.fromARGB(255, 27, 126, 172),
+                            fontSize: 17,
+                          ),
+                        ),
+                        style: ElevatedButton.styleFrom(
+                          primary: Color.fromARGB(255, 244, 250, 255),
+                          shadowColor: Color.fromARGB(255, 244, 250, 255),
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(0, 15, 0, 0),
+                      child: Container(
+                        child: Center(
+                          child: Image.asset("assets/resimler/konser.png"),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 5,
+                    ),
+                    Container(
+                      decoration: BoxDecoration(
+                        color: Color.fromARGB(255, 244, 250, 255),
+                      ),
+                      child: TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/konser");
+                        },
+                        child: const Text(
+                          "IF Beşiktaş 8 Ağustos Redd Konserinden Fan Club'lılara Hediye Biletler!",
+                          style: TextStyle(
+                              color: Color.fromARGB(255, 4, 3, 91),
+                              fontSize: 15),
+                        ),
+                      ),
+                    ),
+                    Container(
+                      width: double.infinity,
+                      child: ElevatedButton.icon(
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/konser");
+                        },
+                        icon: const Icon(
+                          Icons.arrow_right_alt,
+                          size: 40,
+                          color: Color.fromARGB(255, 27, 126, 172),
+                        ),
+                        label: const Text(
+                          "Kampanya Detayı",
+                          style: TextStyle(
+                            color: Color.fromARGB(255, 27, 126, 172),
+                            fontSize: 17,
+                          ),
+                        ),
+                        style: ElevatedButton.styleFrom(
+                          primary: Color.fromARGB(255, 244, 250, 255),
+                          shadowColor: Color.fromARGB(255, 244, 250, 255),
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(0, 15, 0, 0),
+                      child: Container(
+                        child: Center(
+                          child: Image.asset("assets/resimler/konser.png"),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 5,
+                    ),
+                    Container(
+                      decoration: BoxDecoration(
+                        color: Color.fromARGB(255, 244, 250, 255),
+                      ),
+                      child: TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/konser");
+                        },
+                        child: const Text(
+                          "IF Beşiktaş 14 Ağustos Kurban Konserinden Fan Club'lılara Hediye Biletler!",
+                          style: TextStyle(
+                              color: Color.fromARGB(255, 4, 3, 91),
+                              fontSize: 15),
+                        ),
+                      ),
+                    ),
+                    Container(
+                      width: double.infinity,
+                      child: ElevatedButton.icon(
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/konser");
+                        },
+                        icon: const Icon(
+                          Icons.arrow_right_alt,
+                          size: 40,
+                          color: Color.fromARGB(255, 27, 126, 172),
+                        ),
+                        label: const Text(
+                          "Kampanya Detayı",
+                          style: TextStyle(
+                            color: Color.fromARGB(255, 27, 126, 172),
+                            fontSize: 17,
+                          ),
+                        ),
+                        style: ElevatedButton.styleFrom(
+                          primary: Color.fromARGB(255, 244, 250, 255),
+                          shadowColor: Color.fromARGB(255, 244, 250, 255),
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(0, 15, 0, 0),
+                      child: Container(
+                        child: Center(
+                          child: Image.asset("assets/resimler/konser.png"),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 5,
+                    ),
+                    Container(
+                      decoration: BoxDecoration(
+                        color: Color.fromARGB(255, 244, 250, 255),
+                      ),
+                      child: TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/konser");
+                        },
+                        child: const Text(
+                          "IF Beşiktaş 19 Ağustos Emre Aydın Konserinden Fan Club'lılara Hediye Biletler!",
+                          style: TextStyle(
+                              color: Color.fromARGB(255, 4, 3, 91),
+                              fontSize: 15),
+                        ),
+                      ),
+                    ),
+                    Container(
+                      width: double.infinity,
+                      child: ElevatedButton.icon(
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/konser");
+                        },
+                        icon: const Icon(
+                          Icons.arrow_right_alt,
+                          size: 40,
+                          color: Color.fromARGB(255, 27, 126, 172),
+                        ),
+                        label: const Text(
+                          "Kampanya Detayı",
+                          style: TextStyle(
+                            color: Color.fromARGB(255, 27, 126, 172),
+                            fontSize: 17,
+                          ),
                         ),
                         style: ElevatedButton.styleFrom(
                           primary: Color.fromARGB(255, 244, 250, 255),

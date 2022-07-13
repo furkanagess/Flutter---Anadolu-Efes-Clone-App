@@ -60,11 +60,12 @@ class _KonserDuyurusuState extends State<KonserDuyurusu> {
                       ),
                     ),
                     const Padding(
-                      padding: EdgeInsets.all(10.0),
+                      padding: EdgeInsets.all(14.0),
                       child: Text(
                         "Fan Clublılara özel konser bileti hediyeleri devam ediyor, IF Performance Hall Beşiktaş ile Fan Club'lılar ay boyunca eğlenceye doyuyor! Kampanyalar kısmında belirtilen tarihte gerçekleşecek olan konsere çift kişilik bitel kazanmak için tek yapman gereken 250 puan karşılığında Kampanyaya Katıl Butonuna dokunmak. Müziğin keyfini doyasıya yaşamak için acele et Fan Club'lı!",
                         style: TextStyle(
                           color: Color.fromARGB(255, 4, 3, 91),
+                          fontSize: 12,
                         ),
                       ),
                     ),

@@ -60,11 +60,12 @@ class _KonixDuyurusuState extends State<KonixDuyurusu> {
                       ),
                     ),
                     const Padding(
-                      padding: EdgeInsets.all(10.0),
+                      padding: EdgeInsets.all(14.0),
                       child: Text(
                         "Partnerimiz Konix'in Fan Clublılara özel %25 indirimi yeni sezonda devam ediyor! Sen de www.konix.com.tr adresinden yapacağın tüm alışverişlerinde geçerli %25 indirimden yararlanmak istiyorsan hemen hiç puan harcamadan Kampanyaya Katıl butonuna dokun ve sana özel tek kullanımlık kodun sahibi ol! Artık sen de alışverişi tamamlamadan önce kodu yazarak %25 indirimi uygulayabilirsin. Bu özel fırsatı kaçırma Fan Club'lı!",
                         style: TextStyle(
                           color: Color.fromARGB(255, 4, 3, 91),
+                          fontSize: 12,
                         ),
                       ),
                     ),

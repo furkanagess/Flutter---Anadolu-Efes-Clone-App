@@ -60,11 +60,12 @@ class _KombineDuyurusuState extends State<KombineDuyurusu> {
                       ),
                     ),
                     const Padding(
-                      padding: EdgeInsets.all(10.0),
+                      padding: EdgeInsets.all(14.0),
                       child: Text(
                         "Geçtiğimiz sezon EuroLeague'de seyirci ortalamasında takımını zirvere çıkaran ve kapalı gişe rekorları kıran Anadolu Efes'liler, gelecek sezonda da üst üste iki sezon EuroLeague şampiyonu olan takımını yalnız bırakmıyor! Anadolu Efes'in eşsiz maç günü atmosferini yerinde yaşamak istiyorsan ana heniz yeni sezon kombineni almadıysan hemen www.mobilet.com'dan veya Mobilet mobil uygulamasından kombine satış sayfasına git ve Fan Club üye numaranla %20 indirimden faydalanarak kombineni satın al. Haydi Fan Club'lı yeni zaferlere birlikte yürüyelim!",
                         style: TextStyle(
                           color: Color.fromARGB(255, 4, 3, 91),
+                          fontSize: 12,
                         ),
                       ),
                     ),

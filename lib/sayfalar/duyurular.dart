@@ -40,14 +40,20 @@ class _DuyurularState extends State<Duyurular> {
                     const SizedBox(
                       height: 5,
                     ),
-                    TextButton(
-                      onPressed: () {
-                        Navigator.pushNamed(context, "/konix");
-                      },
-                      child: const Text(
-                        "Konix'ten Fan Club'lılara %25 İndirim Fırsatı Devam Ediyor!",
-                        style: TextStyle(
-                            color: Color.fromARGB(255, 4, 3, 91), fontSize: 15),
+                    Container(
+                      decoration: BoxDecoration(
+                        color: Color.fromARGB(255, 244, 250, 255),
+                      ),
+                      child: TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/konix");
+                        },
+                        child: const Text(
+                          "Konix'ten Fan Club'lılara %25 İndirim Fırsatı Devam Ediyor!",
+                          style: TextStyle(
+                              color: Color.fromARGB(255, 4, 3, 91),
+                              fontSize: 15),
+                        ),
                       ),
                     ),
                     Container(
@@ -68,9 +74,8 @@ class _DuyurularState extends State<Duyurular> {
                           ),
                         ),
                         style: ElevatedButton.styleFrom(
-                          primary: Color.fromARGB(255, 244, 250, 255),
-                          shadowColor: Color.fromARGB(255, 244, 250, 255),
-                        ),
+                            primary: Color.fromARGB(255, 244, 250, 255),
+                            shadowColor: Colors.white),
                       ),
                     ),
                     Padding(
@@ -84,14 +89,20 @@ class _DuyurularState extends State<Duyurular> {
                     const SizedBox(
                       height: 5,
                     ),
-                    TextButton(
-                      onPressed: () {
-                        Navigator.pushNamed(context, "/kombine");
-                      },
-                      child: const Text(
-                        "Yeni Sezon Kombinelerinde Fan Club'Lılara Özel %20 İndirim!",
-                        style: TextStyle(
-                            color: Color.fromARGB(255, 4, 3, 91), fontSize: 15),
+                    Container(
+                      decoration: BoxDecoration(
+                        color: Color.fromARGB(255, 244, 250, 255),
+                      ),
+                      child: TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/kombine");
+                        },
+                        child: const Text(
+                          "Yeni Sezon Kombinelerinde Fan Club'Lılara Özel %20 İndirim!",
+                          style: TextStyle(
+                              color: Color.fromARGB(255, 4, 3, 91),
+                              fontSize: 15),
+                        ),
                       ),
                     ),
                     Container(
@@ -127,14 +138,20 @@ class _DuyurularState extends State<Duyurular> {
                     const SizedBox(
                       height: 5,
                     ),
-                    TextButton(
-                      onPressed: () {
-                        Navigator.pushNamed(context, "/moov");
-                      },
-                      child: const Text(
-                        "MOOV'dan Fan Club'lılara Özel %15 İndirim!",
-                        style: TextStyle(
-                            color: Color.fromARGB(255, 4, 3, 91), fontSize: 15),
+                    Container(
+                      decoration: BoxDecoration(
+                        color: Color.fromARGB(255, 244, 250, 255),
+                      ),
+                      child: TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/moov");
+                        },
+                        child: const Text(
+                          "MOOV'dan Fan Club'lılara Özel %15 İndirim!",
+                          style: TextStyle(
+                              color: Color.fromARGB(255, 4, 3, 91),
+                              fontSize: 15),
+                        ),
                       ),
                     ),
                     Container(
@@ -170,14 +187,20 @@ class _DuyurularState extends State<Duyurular> {
                     const SizedBox(
                       height: 5,
                     ),
-                    TextButton(
-                      onPressed: () {
-                        Navigator.pushNamed(context, "/konser");
-                      },
-                      child: const Text(
-                        "IF Beşiktaş 15 Temmuz Pinhani Konserinden Fan Club'lılara Hediye Biletler!",
-                        style: TextStyle(
-                            color: Color.fromARGB(255, 4, 3, 91), fontSize: 15),
+                    Container(
+                      decoration: BoxDecoration(
+                        color: Color.fromARGB(255, 244, 250, 255),
+                      ),
+                      child: TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/konser");
+                        },
+                        child: const Text(
+                          "IF Beşiktaş 15 Temmuz Pinhani Konserinden Fan Club'lılara Hediye Biletler!",
+                          style: TextStyle(
+                              color: Color.fromARGB(255, 4, 3, 91),
+                              fontSize: 15),
+                        ),
                       ),
                     ),
                     Container(
@@ -213,14 +236,20 @@ class _DuyurularState extends State<Duyurular> {
                     const SizedBox(
                       height: 5,
                     ),
-                    TextButton(
-                      onPressed: () {
-                        Navigator.pushNamed(context, "/konser");
-                      },
-                      child: const Text(
-                        "IF Beşiktaş 17 Temmuz Onur Özdemir Konserinden Fan Club'lılara Hediye Biletler!",
-                        style: TextStyle(
-                            color: Color.fromARGB(255, 4, 3, 91), fontSize: 15),
+                    Container(
+                      decoration: BoxDecoration(
+                        color: Color.fromARGB(255, 244, 250, 255),
+                      ),
+                      child: TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/konser");
+                        },
+                        child: const Text(
+                          "IF Beşiktaş 17 Temmuz Onur Özdemir Konserinden Fan Club'lılara Hediye Biletler!",
+                          style: TextStyle(
+                              color: Color.fromARGB(255, 4, 3, 91),
+                              fontSize: 15),
+                        ),
                       ),
                     ),
                     Container(
@@ -256,14 +285,20 @@ class _DuyurularState extends State<Duyurular> {
                     const SizedBox(
                       height: 5,
                     ),
-                    TextButton(
-                      onPressed: () {
-                        Navigator.pushNamed(context, "/konser");
-                      },
-                      child: const Text(
-                        "IF Beşiktaş 22 Temmuz Can Bonomo Konserinden Fan Club'lılara Hediye Biletler!",
-                        style: TextStyle(
-                            color: Color.fromARGB(255, 4, 3, 91), fontSize: 15),
+                    Container(
+                      decoration: BoxDecoration(
+                        color: Color.fromARGB(255, 244, 250, 255),
+                      ),
+                      child: TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/konser");
+                        },
+                        child: const Text(
+                          "IF Beşiktaş 22 Temmuz Can Bonomo Konserinden Fan Club'lılara Hediye Biletler!",
+                          style: TextStyle(
+                              color: Color.fromARGB(255, 4, 3, 91),
+                              fontSize: 15),
+                        ),
                       ),
                     ),
                     Container(
@@ -299,14 +334,20 @@ class _DuyurularState extends State<Duyurular> {
                     const SizedBox(
                       height: 5,
                     ),
-                    TextButton(
-                      onPressed: () {
-                        Navigator.pushNamed(context, "/konser");
-                      },
-                      child: const Text(
-                        "IF Beşiktaş 25 Temmuz Şebnem Ferah Konserinden Fan Club'lılara Hediye Biletler!",
-                        style: TextStyle(
-                            color: Color.fromARGB(255, 4, 3, 91), fontSize: 15),
+                    Container(
+                      decoration: BoxDecoration(
+                        color: Color.fromARGB(255, 244, 250, 255),
+                      ),
+                      child: TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/konser");
+                        },
+                        child: const Text(
+                          "IF Beşiktaş 25 Temmuz Şebnem Ferah Konserinden Fan Club'lılara Hediye Biletler!",
+                          style: TextStyle(
+                              color: Color.fromARGB(255, 4, 3, 91),
+                              fontSize: 15),
+                        ),
                       ),
                     ),
                     Container(
@@ -342,14 +383,20 @@ class _DuyurularState extends State<Duyurular> {
                     const SizedBox(
                       height: 5,
                     ),
-                    TextButton(
-                      onPressed: () {
-                        Navigator.pushNamed(context, "/konser");
-                      },
-                      child: const Text(
-                        "IF Beşiktaş 28 Temmuz Duman Konserinden Fan Club'lılara Hediye Biletler!",
-                        style: TextStyle(
-                            color: Color.fromARGB(255, 4, 3, 91), fontSize: 15),
+                    Container(
+                      decoration: BoxDecoration(
+                        color: Color.fromARGB(255, 244, 250, 255),
+                      ),
+                      child: TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/konser");
+                        },
+                        child: const Text(
+                          "IF Beşiktaş 28 Temmuz Duman Konserinden Fan Club'lılara Hediye Biletler!",
+                          style: TextStyle(
+                              color: Color.fromARGB(255, 4, 3, 91),
+                              fontSize: 15),
+                        ),
                       ),
                     ),
                     Container(

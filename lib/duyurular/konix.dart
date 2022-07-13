@@ -28,7 +28,8 @@ class _KonixDuyurusuState extends State<KonixDuyurusu> {
             color: Color.fromARGB(255, 27, 126, 172),
           ),
         ),
-        backgroundColor: const Color.fromARGB(255, 244, 250, 255),
+        backgroundColor: Color.fromARGB(255, 248, 247, 247),
+        shadowColor: Colors.white,
       ),
       body: Center(
         child: Column(
@@ -88,7 +89,12 @@ class _KonixDuyurusuState extends State<KonixDuyurusu> {
                               context: context,
                               builder: (BuildContext context) {
                                 return const AlertDialog(
-                                  content: Text("Kampanyaya Katıldınız !"),
+                                  content: Text(
+                                    "        Kampanyaya Katıldınız !",
+                                    style: TextStyle(
+                                      color: Color.fromARGB(255, 4, 3, 91),
+                                    ),
+                                  ),
                                 );
                               },
                             );

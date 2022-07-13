@@ -61,9 +61,21 @@ class _SifreUnuttumState extends State<SifreUnuttum> {
                           controller: _emailKontrol,
                           validator: (deger) {
                             if (deger!.contains("@")) {
-                              return "Mail Kutunuzu Kontrol Ediniz";
+                              showDialog(
+                                context: context,
+                                builder: (BuildContext context) {
+                                  return const AlertDialog(
+                                    content: Text(
+                                      "Mail Kutunuzu Kontrol Ediniz.",
+                                      style: TextStyle(
+                                        color: Color.fromARGB(255, 4, 3, 91),
+                                      ),
+                                    ),
+                                  );
+                                },
+                              );
                             } else {
-                              return "Geçersiz Mail";
+                              return "Geçerli Bir Mail Giriniz.";
                             }
                             //Buraya Alert Box Eklenecek
                           },
@@ -94,9 +106,7 @@ class _SifreUnuttumState extends State<SifreUnuttum> {
                           ),
                           child: TextButton(
                             onPressed: () {
-                              if (_girisFormu.currentState!.validate()) {
-                                Navigator.pushNamed(context, "/profil");
-                              }
+                              if (_girisFormu.currentState!.validate()) {}
                               ;
                             },
                             child: const Text(

@@ -64,7 +64,8 @@ class _DuyurularState extends State<Duyurular> {
                         label: const Text(
                           "Kampanya Detayı",
                           style: TextStyle(
-                              color: Color.fromARGB(255, 27, 126, 172)),
+                            color: Color.fromARGB(255, 27, 126, 172),
+                          ),
                         ),
                         style: ElevatedButton.styleFrom(
                           primary: Color.fromARGB(255, 244, 250, 255),

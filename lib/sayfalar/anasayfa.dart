@@ -7,69 +7,519 @@ class Anasayfa extends StatefulWidget {
   State<Anasayfa> createState() => _AnasayfaState();
 }
 
-class CardItem {
-  final String assetImmage;
-  final String title;
-  const CardItem({
-    required this.assetImmage,
-    required this.title,
-  });
-}
-
 class _AnasayfaState extends State<Anasayfa> {
-  List<CardItem> items = [
-    const CardItem(
-        assetImmage: "assets/resimler/sampiyon.jpg",
-        title: "Anadolu Efes Şampiyon"),
-    const CardItem(
-        assetImmage: "assets/resimler/pazarlama.png",
-        title: "Pazarlamada Şampiyon Anadolu Efes"),
-    const CardItem(
-        assetImmage: "assets/resimler/larkin.jpeg", title: "Maç takvimi"),
-    const CardItem(assetImmage: "assets/resimler/alper.png", title: "Alper"),
-    const CardItem(
-        assetImmage: "assets/resimler/egehan.jpeg", title: "Egehan Hoşgeldin"),
-  ];
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        height: 270,
-        child: ListView.separated(
-          scrollDirection: Axis.horizontal,
-          itemCount: 5,
-          separatorBuilder: (context, _) => SizedBox(
-            width: 10,
+      appBar: AppBar(
+        centerTitle: true,
+        automaticallyImplyLeading: false,
+        title: const Text(
+          "Anadolu Efes Fan Club  \n            Haberleri",
+          style: TextStyle(
+            color: Color.fromARGB(255, 27, 126, 172),
           ),
-          itemBuilder: (context, index) => buildCard(item: items[index]),
+        ),
+        backgroundColor: const Color.fromARGB(255, 244, 250, 255),
+      ),
+      body: Center(
+        child: Column(
+          children: [
+            Expanded(
+              child: SingleChildScrollView(
+                child: Column(
+                  children: [
+                    const SizedBox(
+                      height: 5,
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(0, 5, 0, 0),
+                      child: Container(
+                        child: Center(
+                          child: Image.asset("assets/resimler/sampiyon.jpg"),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 5,
+                    ),
+                    Container(
+                      decoration: const BoxDecoration(
+                        color: const Color.fromARGB(255, 244, 250, 255),
+                      ),
+                      child: TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/konix");
+                        },
+                        child: const Text(
+                          "Şampiyon Anadolu Efes'in Turkish Airlines Euroleague Maç Programı Belli Oldu",
+                          style: TextStyle(
+                            color: Color.fromARGB(255, 4, 3, 91),
+                            fontSize: 15,
+                          ),
+                        ),
+                      ),
+                    ),
+                    const Text(
+                      "14 Temmuz 2022",
+                      style: TextStyle(
+                        fontSize: 12,
+                      ),
+                    ),
+                    const Divider(
+                      color: const Color.fromARGB(255, 19, 2, 81),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(0, 5, 0, 0),
+                      child: Container(
+                        child: Center(
+                          child: Image.asset("assets/resimler/sampiyon.jpg"),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 5,
+                    ),
+                    Container(
+                      decoration: const BoxDecoration(
+                        color: Color.fromARGB(255, 244, 250, 255),
+                      ),
+                      child: TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/konix");
+                        },
+                        child: const Text(
+                          "Şampiyon Anadolu Efes'in Turkish Airlines Euroleague Maç Programı Belli Oldu",
+                          style: TextStyle(
+                            color: Color.fromARGB(255, 4, 3, 91),
+                            fontSize: 15,
+                          ),
+                        ),
+                      ),
+                    ),
+                    const Text(
+                      "14 Temmuz 2022",
+                      style: TextStyle(
+                        fontSize: 12,
+                      ),
+                    ),
+                    const Divider(
+                      color: const Color.fromARGB(255, 19, 2, 81),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(0, 5, 0, 0),
+                      child: Container(
+                        child: Center(
+                          child: Image.asset("assets/resimler/sampiyon.jpg"),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 5,
+                    ),
+                    Container(
+                      decoration: const BoxDecoration(
+                        color: Color.fromARGB(255, 244, 250, 255),
+                      ),
+                      child: TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/konix");
+                        },
+                        child: const Text(
+                          "Şampiyon Anadolu Efes'in Turkish Airlines Euroleague Maç Programı Belli Oldu",
+                          style: TextStyle(
+                            color: Color.fromARGB(255, 4, 3, 91),
+                            fontSize: 15,
+                          ),
+                        ),
+                      ),
+                    ),
+                    const Text(
+                      "14 Temmuz 2022",
+                      style: TextStyle(
+                        fontSize: 12,
+                      ),
+                    ),
+                    const Divider(
+                      color: Color.fromARGB(255, 19, 2, 81),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(0, 5, 0, 0),
+                      child: Container(
+                        child: Center(
+                          child: Image.asset("assets/resimler/sampiyon.jpg"),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 5,
+                    ),
+                    Container(
+                      decoration: const BoxDecoration(
+                        color: Color.fromARGB(255, 244, 250, 255),
+                      ),
+                      child: TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/konix");
+                        },
+                        child: const Text(
+                          "Şampiyon Anadolu Efes'in Turkish Airlines Euroleague Maç Programı Belli Oldu",
+                          style: TextStyle(
+                            color: Color.fromARGB(255, 4, 3, 91),
+                            fontSize: 15,
+                          ),
+                        ),
+                      ),
+                    ),
+                    const Text(
+                      "14 Temmuz 2022",
+                      style: TextStyle(
+                        fontSize: 12,
+                      ),
+                    ),
+                    const Divider(
+                      color: Color.fromARGB(255, 19, 2, 81),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(0, 5, 0, 0),
+                      child: Container(
+                        child: Center(
+                          child: Image.asset("assets/resimler/sampiyon.jpg"),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 5,
+                    ),
+                    Container(
+                      decoration: const BoxDecoration(
+                        color: Color.fromARGB(255, 244, 250, 255),
+                      ),
+                      child: TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/konix");
+                        },
+                        child: const Text(
+                          "Şampiyon Anadolu Efes'in Turkish Airlines Euroleague Maç Programı Belli Oldu",
+                          style: TextStyle(
+                            color: Color.fromARGB(255, 4, 3, 91),
+                            fontSize: 15,
+                          ),
+                        ),
+                      ),
+                    ),
+                    const Text(
+                      "14 Temmuz 2022",
+                      style: TextStyle(
+                        fontSize: 12,
+                      ),
+                    ),
+                    const Divider(
+                      color: Color.fromARGB(255, 19, 2, 81),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(0, 5, 0, 0),
+                      child: Container(
+                        child: Center(
+                          child: Image.asset("assets/resimler/sampiyon.jpg"),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 5,
+                    ),
+                    Container(
+                      decoration: const BoxDecoration(
+                        color: Color.fromARGB(255, 244, 250, 255),
+                      ),
+                      child: TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/konix");
+                        },
+                        child: const Text(
+                          "Şampiyon Anadolu Efes'in Turkish Airlines Euroleague Maç Programı Belli Oldu",
+                          style: TextStyle(
+                            color: Color.fromARGB(255, 4, 3, 91),
+                            fontSize: 15,
+                          ),
+                        ),
+                      ),
+                    ),
+                    const Text(
+                      "14 Temmuz 2022",
+                      style: TextStyle(
+                        fontSize: 12,
+                      ),
+                    ),
+                    const Divider(
+                      color: Color.fromARGB(255, 19, 2, 81),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(0, 5, 0, 0),
+                      child: Container(
+                        child: Center(
+                          child: Image.asset("assets/resimler/sampiyon.jpg"),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 5,
+                    ),
+                    Container(
+                      decoration: const BoxDecoration(
+                        color: const Color.fromARGB(255, 244, 250, 255),
+                      ),
+                      child: TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/konix");
+                        },
+                        child: const Text(
+                          "Şampiyon Anadolu Efes'in Turkish Airlines Euroleague Maç Programı Belli Oldu",
+                          style: TextStyle(
+                            color: Color.fromARGB(255, 4, 3, 91),
+                            fontSize: 15,
+                          ),
+                        ),
+                      ),
+                    ),
+                    const Text(
+                      "14 Temmuz 2022",
+                      style: TextStyle(
+                        fontSize: 12,
+                      ),
+                    ),
+                    const Divider(
+                      color: Color.fromARGB(255, 19, 2, 81),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(0, 5, 0, 0),
+                      child: Container(
+                        child: Center(
+                          child: Image.asset("assets/resimler/sampiyon.jpg"),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 5,
+                    ),
+                    Container(
+                      decoration: const BoxDecoration(
+                        color: const Color.fromARGB(255, 244, 250, 255),
+                      ),
+                      child: TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/konix");
+                        },
+                        child: const Text(
+                          "Şampiyon Anadolu Efes'in Turkish Airlines Euroleague Maç Programı Belli Oldu",
+                          style: TextStyle(
+                            color: Color.fromARGB(255, 4, 3, 91),
+                            fontSize: 15,
+                          ),
+                        ),
+                      ),
+                    ),
+                    const Text(
+                      "14 Temmuz 2022",
+                      style: TextStyle(
+                        fontSize: 12,
+                      ),
+                    ),
+                    const Divider(
+                      color: Color.fromARGB(255, 19, 2, 81),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(0, 5, 0, 0),
+                      child: Container(
+                        child: Center(
+                          child: Image.asset("assets/resimler/sampiyon.jpg"),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 5,
+                    ),
+                    Container(
+                      decoration: const BoxDecoration(
+                        color: const Color.fromARGB(255, 244, 250, 255),
+                      ),
+                      child: TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/konix");
+                        },
+                        child: const Text(
+                          "Şampiyon Anadolu Efes'in Turkish Airlines Euroleague Maç Programı Belli Oldu",
+                          style: TextStyle(
+                            color: Color.fromARGB(255, 4, 3, 91),
+                            fontSize: 15,
+                          ),
+                        ),
+                      ),
+                    ),
+                    const Text(
+                      "14 Temmuz 2022",
+                      style: TextStyle(
+                        fontSize: 12,
+                      ),
+                    ),
+                    const Divider(
+                      color: const Color.fromARGB(255, 19, 2, 81),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(0, 5, 0, 0),
+                      child: Container(
+                        child: Center(
+                          child: Image.asset("assets/resimler/sampiyon.jpg"),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 5,
+                    ),
+                    Container(
+                      decoration: const BoxDecoration(
+                        color: const Color.fromARGB(255, 244, 250, 255),
+                      ),
+                      child: TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/konix");
+                        },
+                        child: const Text(
+                          "Şampiyon Anadolu Efes'in Turkish Airlines Euroleague Maç Programı Belli Oldu",
+                          style: TextStyle(
+                            color: Color.fromARGB(255, 4, 3, 91),
+                            fontSize: 15,
+                          ),
+                        ),
+                      ),
+                    ),
+                    const Text(
+                      "14 Temmuz 2022",
+                      style: TextStyle(
+                        fontSize: 12,
+                      ),
+                    ),
+                    const Divider(
+                      color: const Color.fromARGB(255, 19, 2, 81),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(0, 5, 0, 0),
+                      child: Container(
+                        child: Center(
+                          child: Image.asset("assets/resimler/sampiyon.jpg"),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 5,
+                    ),
+                    Container(
+                      decoration: const BoxDecoration(
+                        color: Color.fromARGB(255, 244, 250, 255),
+                      ),
+                      child: TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/konix");
+                        },
+                        child: const Text(
+                          "Şampiyon Anadolu Efes'in Turkish Airlines Euroleague Maç Programı Belli Oldu",
+                          style: TextStyle(
+                            color: Color.fromARGB(255, 4, 3, 91),
+                            fontSize: 15,
+                          ),
+                        ),
+                      ),
+                    ),
+                    const Text(
+                      "14 Temmuz 2022",
+                      style: TextStyle(
+                        fontSize: 12,
+                      ),
+                    ),
+                    const Divider(
+                      color: const Color.fromARGB(255, 19, 2, 81),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(0, 5, 0, 0),
+                      child: Container(
+                        child: Center(
+                          child: Image.asset("assets/resimler/sampiyon.jpg"),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 5,
+                    ),
+                    Container(
+                      decoration: const BoxDecoration(
+                        color: Color.fromARGB(255, 244, 250, 255),
+                      ),
+                      child: TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/konix");
+                        },
+                        child: const Text(
+                          "Şampiyon Anadolu Efes'in Turkish Airlines Euroleague Maç Programı Belli Oldu",
+                          style: TextStyle(
+                            color: Color.fromARGB(255, 4, 3, 91),
+                            fontSize: 15,
+                          ),
+                        ),
+                      ),
+                    ),
+                    const Text(
+                      "14 Temmuz 2022",
+                      style: TextStyle(
+                        fontSize: 12,
+                      ),
+                    ),
+                    const Divider(
+                      color: Color.fromARGB(255, 19, 2, 81),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(0, 5, 0, 0),
+                      child: Container(
+                        child: Center(
+                          child: Image.asset("assets/resimler/sampiyon.jpg"),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 5,
+                    ),
+                    Container(
+                      decoration: const BoxDecoration(
+                        color: Color.fromARGB(255, 244, 250, 255),
+                      ),
+                      child: TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/konix");
+                        },
+                        child: const Text(
+                          "Şampiyon Anadolu Efes'in Turkish Airlines Euroleague Maç Programı Belli Oldu",
+                          style: TextStyle(
+                            color: Color.fromARGB(255, 4, 3, 91),
+                            fontSize: 15,
+                          ),
+                        ),
+                      ),
+                    ),
+                    const Text(
+                      "14 Temmuz 2022",
+                      style: TextStyle(
+                        fontSize: 12,
+                      ),
+                    ),
+                    const Divider(
+                      color: Color.fromARGB(255, 19, 2, 81),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ],
         ),
       ),
     );
   }
-
-  Widget buildCard({
-    required CardItem item,
-  }) =>
-      Container(
-        width: 360,
-        child: Column(
-          children: [
-            Expanded(
-              child: AspectRatio(
-                aspectRatio: 5 / 1,
-                child: Image.asset(
-                  item.assetImmage,
-                  fit: BoxFit.cover,
-                ),
-              ),
-            ),
-            const SizedBox(height: 4),
-            Text(
-              item.title,
-              style: TextStyle(fontSize: 20),
-            )
-          ],
-        ),
-      );
 }

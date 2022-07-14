@@ -42,7 +42,7 @@ class _KonixDuyurusuState extends State<KonixDuyurusu> {
                       padding: const EdgeInsets.fromLTRB(0, 15, 0, 0),
                       child: Container(
                         child: Center(
-                          child: Image.asset("assets/resimler/konix.png"),
+                          child: Image.asset("assets/resimler/konix.jpg"),
                         ),
                       ),
                     ),

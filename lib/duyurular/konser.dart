@@ -42,7 +42,7 @@ class _KonserDuyurusuState extends State<KonserDuyurusu> {
                       padding: const EdgeInsets.fromLTRB(0, 15, 0, 0),
                       child: Container(
                         child: Center(
-                          child: Image.asset("assets/resimler/konser.png"),
+                          child: Image.asset("assets/resimler/konser.jpg"),
                         ),
                       ),
                     ),

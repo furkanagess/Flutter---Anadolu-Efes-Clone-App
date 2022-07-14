@@ -33,7 +33,7 @@ class _DuyurularState extends State<Duyurular> {
                       padding: const EdgeInsets.fromLTRB(0, 5, 0, 0),
                       child: Container(
                         child: Center(
-                          child: Image.asset("assets/resimler/konix.png"),
+                          child: Image.asset("assets/resimler/konix.jpg"),
                         ),
                       ),
                     ),
@@ -83,7 +83,7 @@ class _DuyurularState extends State<Duyurular> {
                       padding: const EdgeInsets.fromLTRB(0, 15, 0, 0),
                       child: Container(
                         child: Center(
-                          child: Image.asset("assets/resimler/kombine.png"),
+                          child: Image.asset("assets/resimler/kombine.jpg"),
                         ),
                       ),
                     ),
@@ -134,7 +134,7 @@ class _DuyurularState extends State<Duyurular> {
                       padding: const EdgeInsets.fromLTRB(0, 15, 0, 0),
                       child: Container(
                         child: Center(
-                          child: Image.asset("assets/resimler/moov.png"),
+                          child: Image.asset("assets/resimler/moov.jpg"),
                         ),
                       ),
                     ),
@@ -185,7 +185,7 @@ class _DuyurularState extends State<Duyurular> {
                       padding: const EdgeInsets.fromLTRB(0, 15, 0, 0),
                       child: Container(
                         child: Center(
-                          child: Image.asset("assets/resimler/konser.png"),
+                          child: Image.asset("assets/resimler/konser.jpg"),
                         ),
                       ),
                     ),
@@ -236,7 +236,7 @@ class _DuyurularState extends State<Duyurular> {
                       padding: const EdgeInsets.fromLTRB(0, 15, 0, 0),
                       child: Container(
                         child: Center(
-                          child: Image.asset("assets/resimler/konser.png"),
+                          child: Image.asset("assets/resimler/konser.jpg"),
                         ),
                       ),
                     ),
@@ -287,7 +287,7 @@ class _DuyurularState extends State<Duyurular> {
                       padding: const EdgeInsets.fromLTRB(0, 15, 0, 0),
                       child: Container(
                         child: Center(
-                          child: Image.asset("assets/resimler/konser.png"),
+                          child: Image.asset("assets/resimler/konser.jpg"),
                         ),
                       ),
                     ),
@@ -338,7 +338,7 @@ class _DuyurularState extends State<Duyurular> {
                       padding: const EdgeInsets.fromLTRB(0, 15, 0, 0),
                       child: Container(
                         child: Center(
-                          child: Image.asset("assets/resimler/konser.png"),
+                          child: Image.asset("assets/resimler/konser.jpg"),
                         ),
                       ),
                     ),
@@ -389,7 +389,7 @@ class _DuyurularState extends State<Duyurular> {
                       padding: const EdgeInsets.fromLTRB(0, 15, 0, 0),
                       child: Container(
                         child: Center(
-                          child: Image.asset("assets/resimler/konser.png"),
+                          child: Image.asset("assets/resimler/konser.jpg"),
                         ),
                       ),
                     ),
@@ -440,7 +440,7 @@ class _DuyurularState extends State<Duyurular> {
                       padding: const EdgeInsets.fromLTRB(0, 15, 0, 0),
                       child: Container(
                         child: Center(
-                          child: Image.asset("assets/resimler/konser.png"),
+                          child: Image.asset("assets/resimler/konser.jpg"),
                         ),
                       ),
                     ),
@@ -491,7 +491,7 @@ class _DuyurularState extends State<Duyurular> {
                       padding: const EdgeInsets.fromLTRB(0, 15, 0, 0),
                       child: Container(
                         child: Center(
-                          child: Image.asset("assets/resimler/konser.png"),
+                          child: Image.asset("assets/resimler/konser.jpg"),
                         ),
                       ),
                     ),
@@ -542,7 +542,7 @@ class _DuyurularState extends State<Duyurular> {
                       padding: const EdgeInsets.fromLTRB(0, 15, 0, 0),
                       child: Container(
                         child: Center(
-                          child: Image.asset("assets/resimler/konser.png"),
+                          child: Image.asset("assets/resimler/konser.jpg"),
                         ),
                       ),
                     ),
@@ -593,7 +593,7 @@ class _DuyurularState extends State<Duyurular> {
                       padding: const EdgeInsets.fromLTRB(0, 15, 0, 0),
                       child: Container(
                         child: Center(
-                          child: Image.asset("assets/resimler/konser.png"),
+                          child: Image.asset("assets/resimler/konser.jpg"),
                         ),
                       ),
                     ),
@@ -644,7 +644,7 @@ class _DuyurularState extends State<Duyurular> {
                       padding: const EdgeInsets.fromLTRB(0, 15, 0, 0),
                       child: Container(
                         child: Center(
-                          child: Image.asset("assets/resimler/konser.png"),
+                          child: Image.asset("assets/resimler/konser.jpg"),
                         ),
                       ),
                     ),

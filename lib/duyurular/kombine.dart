@@ -42,7 +42,7 @@ class _KombineDuyurusuState extends State<KombineDuyurusu> {
                       padding: const EdgeInsets.fromLTRB(0, 15, 0, 0),
                       child: Container(
                         child: Center(
-                          child: Image.asset("assets/resimler/kombine.png"),
+                          child: Image.asset("assets/resimler/kombine.jpg"),
                         ),
                       ),
                     ),

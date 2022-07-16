@@ -35,7 +35,7 @@ class _GirisSayfasiState extends State<GirisSayfasi> {
                     child: Column(
                       children: [
                         Container(
-                          height: 370,
+                          height: 360,
                           child: Center(
                             child: Image.asset("assets/resimler/efeslogo.png"),
                           ),
@@ -59,7 +59,7 @@ class _GirisSayfasiState extends State<GirisSayfasi> {
                           ),
                         ),
                         const SizedBox(
-                          height: 10,
+                          height: 5,
                         ),
                         Padding(
                           padding: const EdgeInsets.all(10.0),

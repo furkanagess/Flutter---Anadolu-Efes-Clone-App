@@ -451,8 +451,34 @@ class _SampiyonHaberState extends State<SampiyonHaber> {
                         ),
                       ),
                     ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Container(
+                        width: double.infinity,
+                        decoration: BoxDecoration(
+                          gradient: const LinearGradient(
+                            begin: Alignment.centerLeft,
+                            end: Alignment.centerRight,
+                            colors: <Color>[
+                              Color.fromARGB(255, 34, 5, 197),
+                              Color.fromARGB(200, 3, 12, 182),
+                            ],
+                          ),
+                          borderRadius: BorderRadius.circular(20.0),
+                        ),
+                        child: TextButton(
+                          onPressed: () {
+                            Navigator.pop(context);
+                          },
+                          child: const Text(
+                            "Haberlere Geri Dön",
+                            style: TextStyle(color: Colors.white),
+                          ),
+                        ),
+                      ),
+                    ),
                     const SizedBox(
-                      height: 30,
+                      height: 20,
                     ),
                   ],
                 ),

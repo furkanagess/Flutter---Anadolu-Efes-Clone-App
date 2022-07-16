@@ -72,7 +72,7 @@ class _SampiyonHaberState extends State<SampiyonHaber> {
                           "Euroleague’de son iki sezonun şampiyonu Anadolu Efes’in 2022-23 sezonu Turkish Airlines Euroleague maç programı belli oldu. Euroleague tarafından açıklanan programa göre ilk hafta maçında 7 Ekim Cuma günü Sırbistan’ın Kızılyıldız mts takımını konuk edeceğiz.",
                           style: TextStyle(
                             color: Color.fromARGB(255, 4, 3, 91),
-                            fontSize: 15,
+                            fontSize: 18,
                           ),
                         ),
                       ),

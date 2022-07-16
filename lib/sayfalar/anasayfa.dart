@@ -601,7 +601,7 @@ class _AnasayfaState extends State<Anasayfa> {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.start,
                         children: [
-                          Text(
+                          const Text(
                             "14 Temmuz 2022",
                             style: TextStyle(
                               fontSize: 12,

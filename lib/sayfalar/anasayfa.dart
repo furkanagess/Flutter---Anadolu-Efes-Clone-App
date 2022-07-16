@@ -49,7 +49,7 @@ class _AnasayfaState extends State<Anasayfa> {
                       ),
                       child: TextButton(
                         onPressed: () {
-                          Navigator.pushNamed(context, "/konix");
+                          Navigator.pushNamed(context, "/sampiyon");
                         },
                         child: const Text(
                           "Şampiyon Anadolu Efes'in Turkish Airlines Euroleague Maç Programı Belli Oldu",
@@ -98,7 +98,7 @@ class _AnasayfaState extends State<Anasayfa> {
                       ),
                       child: TextButton(
                         onPressed: () {
-                          Navigator.pushNamed(context, "/konix");
+                          Navigator.pushNamed(context, "/alper");
                         },
                         child: const Text(
                           "Alper Yılmaz, Euroleague'de Üst Üste İkinci Kez 'Yılın Yöneticisi' seçildi...",
@@ -147,7 +147,7 @@ class _AnasayfaState extends State<Anasayfa> {
                       ),
                       child: TextButton(
                         onPressed: () {
-                          Navigator.pushNamed(context, "/konix");
+                          Navigator.pushNamed(context, "/pazarlama");
                         },
                         child: const Text(
                           "Anadolu Efes, Euroleague Tarafından Beşinci Kez, 'Avrupanın En İyi Pazarlama Yapan Takımı' Seçildi...",
@@ -193,7 +193,7 @@ class _AnasayfaState extends State<Anasayfa> {
                       ),
                       child: TextButton(
                         onPressed: () {
-                          Navigator.pushNamed(context, "/konix");
+                          Navigator.pushNamed(context, "/larkin");
                         },
                         child: const Text(
                           "Shane Larkin İki Yıl Daha Anadolu Efes'te...",
@@ -242,7 +242,7 @@ class _AnasayfaState extends State<Anasayfa> {
                       ),
                       child: TextButton(
                         onPressed: () {
-                          Navigator.pushNamed(context, "/konix");
+                          Navigator.pushNamed(context, "/erten");
                         },
                         child: const Text(
                           "Erten Gazi 1+1 Yıl Daha Anadolu Efes'te...",
@@ -291,7 +291,7 @@ class _AnasayfaState extends State<Anasayfa> {
                       ),
                       child: TextButton(
                         onPressed: () {
-                          Navigator.pushNamed(context, "/konix");
+                          Navigator.pushNamed(context, "/will");
                         },
                         child: const Text(
                           "Şampiyon Anadolu Efes'in Turkish Airlines Euroleague Maç Programı Belli Oldu",
@@ -340,7 +340,7 @@ class _AnasayfaState extends State<Anasayfa> {
                       ),
                       child: TextButton(
                         onPressed: () {
-                          Navigator.pushNamed(context, "/konix");
+                          Navigator.pushNamed(context, "/ante");
                         },
                         child: const Text(
                           "Şampiyon Anadolu Efes'in Turkish Airlines Euroleague Maç Programı Belli Oldu",
@@ -389,7 +389,7 @@ class _AnasayfaState extends State<Anasayfa> {
                       ),
                       child: TextButton(
                         onPressed: () {
-                          Navigator.pushNamed(context, "/konix");
+                          Navigator.pushNamed(context, "/bugra");
                         },
                         child: const Text(
                           "Şampiyon Anadolu Efes'in Turkish Airlines Euroleague Maç Programı Belli Oldu",
@@ -438,7 +438,7 @@ class _AnasayfaState extends State<Anasayfa> {
                       ),
                       child: TextButton(
                         onPressed: () {
-                          Navigator.pushNamed(context, "/konix");
+                          Navigator.pushNamed(context, "/kupa");
                         },
                         child: const Text(
                           "Şampiyon Anadolu Efes'in Turkish Airlines Euroleague Maç Programı Belli Oldu",
@@ -487,7 +487,7 @@ class _AnasayfaState extends State<Anasayfa> {
                       ),
                       child: TextButton(
                         onPressed: () {
-                          Navigator.pushNamed(context, "/konix");
+                          Navigator.pushNamed(context, "/sezon");
                         },
                         child: const Text(
                           "Şampiyon Anadolu Efes'in Turkish Airlines Euroleague Maç Programı Belli Oldu",
@@ -536,7 +536,7 @@ class _AnasayfaState extends State<Anasayfa> {
                       ),
                       child: TextButton(
                         onPressed: () {
-                          Navigator.pushNamed(context, "/konix");
+                          Navigator.pushNamed(context, "/final");
                         },
                         child: const Text(
                           "Şampiyon Anadolu Efes'in Turkish Airlines Euroleague Maç Programı Belli Oldu",
@@ -585,7 +585,7 @@ class _AnasayfaState extends State<Anasayfa> {
                       ),
                       child: TextButton(
                         onPressed: () {
-                          Navigator.pushNamed(context, "/konix");
+                          Navigator.pushNamed(context, "/micic");
                         },
                         child: const Text(
                           "Şampiyon Anadolu Efes'in Turkish Airlines Euroleague Maç Programı Belli Oldu",
@@ -634,7 +634,7 @@ class _AnasayfaState extends State<Anasayfa> {
                       ),
                       child: TextButton(
                         onPressed: () {
-                          Navigator.pushNamed(context, "/konix");
+                          Navigator.pushNamed(context, "/micic2");
                         },
                         child: const Text(
                           "Şampiyon Anadolu Efes'in Turkish Airlines Euroleague Maç Programı Belli Oldu",

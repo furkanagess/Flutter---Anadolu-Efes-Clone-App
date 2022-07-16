@@ -18,11 +18,14 @@ class _FinalHaberState extends State<FinalHaber> {
               child: SingleChildScrollView(
                 child: Column(
                   children: [
-                    Padding(
-                      padding: const EdgeInsets.fromLTRB(0, 5, 0, 0),
-                      child: Container(
-                        child: Center(
-                          child: Image.asset("assets/resimler/final.jpg"),
+                    Container(
+                      height: 200,
+                      child: Padding(
+                        padding: const EdgeInsets.fromLTRB(0, 5, 0, 0),
+                        child: Container(
+                          child: Center(
+                            child: Image.asset("assets/resimler/final.jpg"),
+                          ),
                         ),
                       ),
                     ),

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ornek_kullanim1/sayfalar/sayfaprofil.dart';
+import 'package:ornek_kullanim1/sayfalar/sayfaprofil.dart' as globals;
 
 class KonserDuyurusu extends StatefulWidget {
   KonserDuyurusu({Key? key}) : super(key: key);

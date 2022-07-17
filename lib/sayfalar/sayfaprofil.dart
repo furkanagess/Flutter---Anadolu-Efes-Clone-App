@@ -8,7 +8,7 @@ class SayfaProfil extends StatefulWidget {
 }
 
 class _SayfaProfilState extends State<SayfaProfil> {
-  var puan = 0;
+  static int puan = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(

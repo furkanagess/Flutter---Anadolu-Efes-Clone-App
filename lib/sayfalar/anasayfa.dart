@@ -66,7 +66,7 @@ class _AnasayfaState extends State<Anasayfa> {
                         mainAxisAlignment: MainAxisAlignment.start,
                         children: [
                           Text(
-                            "7 Temmuz 2022",
+                            "14 Temmuz 2022",
                             style: TextStyle(
                               fontSize: 12,
                               color: Colors.blueGrey,
@@ -115,7 +115,7 @@ class _AnasayfaState extends State<Anasayfa> {
                         mainAxisAlignment: MainAxisAlignment.start,
                         children: [
                           Text(
-                            "14 Temmuz 2022",
+                            "7 Temmuz 2022",
                             style: TextStyle(
                               fontSize: 12,
                               color: Colors.blueGrey,
@@ -164,7 +164,7 @@ class _AnasayfaState extends State<Anasayfa> {
                         mainAxisAlignment: MainAxisAlignment.start,
                         children: [
                           Text(
-                            "14 Temmuz 2022",
+                            "9 Mayıs 2022",
                             style: TextStyle(
                               fontSize: 12,
                               color: Colors.blueGrey,
@@ -210,7 +210,7 @@ class _AnasayfaState extends State<Anasayfa> {
                         mainAxisAlignment: MainAxisAlignment.start,
                         children: [
                           Text(
-                            "14 Temmuz 2022",
+                            "10 Haziran 2022",
                             style: TextStyle(
                               fontSize: 12,
                               color: Colors.blueGrey,
@@ -259,7 +259,7 @@ class _AnasayfaState extends State<Anasayfa> {
                         mainAxisAlignment: MainAxisAlignment.start,
                         children: [
                           Text(
-                            "14 Temmuz 2022",
+                            "15 Haziran 2022",
                             style: TextStyle(
                               fontSize: 12,
                               color: Colors.blueGrey,
@@ -294,7 +294,7 @@ class _AnasayfaState extends State<Anasayfa> {
                           Navigator.pushNamed(context, "/will");
                         },
                         child: const Text(
-                          "Şampiyon Anadolu Efes'in Turkish Airlines Euroleague Maç Programı Belli Oldu",
+                          "Will Clyburn Anadolu Efes’te...",
                           style: TextStyle(
                             color: Color.fromARGB(255, 4, 3, 91),
                             fontSize: 15,
@@ -308,7 +308,7 @@ class _AnasayfaState extends State<Anasayfa> {
                         mainAxisAlignment: MainAxisAlignment.start,
                         children: [
                           Text(
-                            "14 Temmuz 2022",
+                            "7 Haziran 2022",
                             style: TextStyle(
                               fontSize: 12,
                               color: Colors.blueGrey,
@@ -343,7 +343,7 @@ class _AnasayfaState extends State<Anasayfa> {
                           Navigator.pushNamed(context, "/ante");
                         },
                         child: const Text(
-                          "Şampiyon Anadolu Efes'in Turkish Airlines Euroleague Maç Programı Belli Oldu",
+                          "Ante Zicic Anadolu Efes’te...",
                           style: TextStyle(
                             color: Color.fromARGB(255, 4, 3, 91),
                             fontSize: 15,
@@ -392,7 +392,7 @@ class _AnasayfaState extends State<Anasayfa> {
                           Navigator.pushNamed(context, "/bugra");
                         },
                         child: const Text(
-                          "Şampiyon Anadolu Efes'in Turkish Airlines Euroleague Maç Programı Belli Oldu",
+                          "Buğrahan Tuncer ile İki Yıl Daha...",
                           style: TextStyle(
                             color: Color.fromARGB(255, 4, 3, 91),
                             fontSize: 15,
@@ -406,7 +406,7 @@ class _AnasayfaState extends State<Anasayfa> {
                         mainAxisAlignment: MainAxisAlignment.start,
                         children: [
                           Text(
-                            "14 Temmuz 2022",
+                            "30 Mayıs 2022",
                             style: TextStyle(
                               fontSize: 12,
                               color: Colors.blueGrey,
@@ -441,7 +441,7 @@ class _AnasayfaState extends State<Anasayfa> {
                           Navigator.pushNamed(context, "/kupa");
                         },
                         child: const Text(
-                          "Şampiyon Anadolu Efes'in Turkish Airlines Euroleague Maç Programı Belli Oldu",
+                          "2021 – 2022 sezonunu Turkish Airlines EuroLeague'de şampiyon olarak tamamlayan Anadolu Efes Spor Kulübü, şampiyonluk kupasını Cumhuriyetimizin Kurucusu Gazi Mustafa Kemal Atatürk’ün edebi istirahatgahı Anıtkabir’e götürdü.",
                           style: TextStyle(
                             color: Color.fromARGB(255, 4, 3, 91),
                             fontSize: 15,
@@ -455,7 +455,7 @@ class _AnasayfaState extends State<Anasayfa> {
                         mainAxisAlignment: MainAxisAlignment.start,
                         children: [
                           Text(
-                            "14 Temmuz 2022",
+                            "25 Mayıs 2022",
                             style: TextStyle(
                               fontSize: 12,
                               color: Colors.blueGrey,
@@ -490,7 +490,7 @@ class _AnasayfaState extends State<Anasayfa> {
                           Navigator.pushNamed(context, "/sezon");
                         },
                         child: const Text(
-                          "Şampiyon Anadolu Efes'in Turkish Airlines Euroleague Maç Programı Belli Oldu",
+                          "Euroleague’de 2021-22 Sezonu Şampiyonu: Anadolu Efes",
                           style: TextStyle(
                             color: Color.fromARGB(255, 4, 3, 91),
                             fontSize: 15,
@@ -504,7 +504,7 @@ class _AnasayfaState extends State<Anasayfa> {
                         mainAxisAlignment: MainAxisAlignment.start,
                         children: [
                           Text(
-                            "14 Temmuz 2022",
+                            "21 Mayıs 2022",
                             style: TextStyle(
                               fontSize: 12,
                               color: Colors.blueGrey,
@@ -539,7 +539,7 @@ class _AnasayfaState extends State<Anasayfa> {
                           Navigator.pushNamed(context, "/final");
                         },
                         child: const Text(
-                          "Şampiyon Anadolu Efes'in Turkish Airlines Euroleague Maç Programı Belli Oldu",
+                          "Sırbistan’ın Belgrad şehrinde düzenlenen Turkish Airlines Euroleague Final Four final maçında 21 Mayıs 2022, Cumartesi günü İspanya’nın Real Madrid takımı ile karşılaşıyoruz. ",
                           style: TextStyle(
                             color: Color.fromARGB(255, 4, 3, 91),
                             fontSize: 15,
@@ -553,7 +553,7 @@ class _AnasayfaState extends State<Anasayfa> {
                         mainAxisAlignment: MainAxisAlignment.start,
                         children: [
                           Text(
-                            "14 Temmuz 2022",
+                            "20 Mayıs 2022",
                             style: TextStyle(
                               fontSize: 12,
                               color: Colors.blueGrey,
@@ -588,7 +588,7 @@ class _AnasayfaState extends State<Anasayfa> {
                           Navigator.pushNamed(context, "/micic");
                         },
                         child: const Text(
-                          "Şampiyon Anadolu Efes'in Turkish Airlines Euroleague Maç Programı Belli Oldu",
+                          "Vasilije Micic, Euroleague’in En İyi İkinci Beşi’ne Seçildi..",
                           style: TextStyle(
                             color: Color.fromARGB(255, 4, 3, 91),
                             fontSize: 15,
@@ -602,7 +602,7 @@ class _AnasayfaState extends State<Anasayfa> {
                         mainAxisAlignment: MainAxisAlignment.start,
                         children: [
                           const Text(
-                            "14 Temmuz 2022",
+                            "12 Mayıs 2022",
                             style: TextStyle(
                               fontSize: 12,
                               color: Colors.blueGrey,
@@ -637,7 +637,7 @@ class _AnasayfaState extends State<Anasayfa> {
                           Navigator.pushNamed(context, "/micic2");
                         },
                         child: const Text(
-                          "Şampiyon Anadolu Efes'in Turkish Airlines Euroleague Maç Programı Belli Oldu",
+                          "Euroleague’de 2021-22 Sezonunun Sayı Kralı Vasilije Micic...",
                           style: TextStyle(
                             color: Color.fromARGB(255, 4, 3, 91),
                             fontSize: 15,
@@ -651,7 +651,7 @@ class _AnasayfaState extends State<Anasayfa> {
                         mainAxisAlignment: MainAxisAlignment.start,
                         children: [
                           Text(
-                            "14 Temmuz 2022",
+                            "9 Mayıs 2022",
                             style: TextStyle(
                               fontSize: 12,
                               color: Colors.blueGrey,

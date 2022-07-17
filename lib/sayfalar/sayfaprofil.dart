@@ -1,17 +1,23 @@
 import 'package:flutter/material.dart';
 
-class ProfilSayfasi extends StatefulWidget {
-  const ProfilSayfasi({Key? key}) : super(key: key);
+class SayfaProfil extends StatefulWidget {
+  SayfaProfil({Key? key}) : super(key: key);
 
   @override
-  State<ProfilSayfasi> createState() => _ProfilSayfasiState();
+  State<SayfaProfil> createState() => _SayfaProfilState();
 }
 
-class _ProfilSayfasiState extends State<ProfilSayfasi> {
+class _SayfaProfilState extends State<SayfaProfil> {
   @override
   Widget build(BuildContext context) {
-    return const Center(
-      child: Text("Profil Sayfasi"),
+    return Scaffold(
+      body: Center(
+        child: Column(
+          children: [
+            Text("Profil"),
+          ],
+        ),
+      ),
     );
   }
 }

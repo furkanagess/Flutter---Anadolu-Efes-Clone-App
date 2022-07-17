@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:ornek_kullanim1/sayfalar/anasayfa.dart';
 import 'package:ornek_kullanim1/sayfalar/duyurular.dart';
 import 'package:ornek_kullanim1/sayfalar/menu.dart';
+import 'package:ornek_kullanim1/sayfalar/sayfaprofil.dart';
 
 class ProfilSayfasi extends StatefulWidget {
   ProfilSayfasi({Key? key}) : super(key: key);
@@ -15,7 +16,7 @@ class _ProfilSayfasiState extends State<ProfilSayfasi> {
   List<Widget> sayfaListesi = [
     Anasayfa(),
     Duyurular(),
-    ProfilSayfasi(),
+    SayfaProfil(),
     MenuSayfasi(),
   ];
   @override

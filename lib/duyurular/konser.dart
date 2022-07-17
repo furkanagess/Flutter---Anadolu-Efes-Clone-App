@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ornek_kullanim1/sayfalar/sayfaprofil.dart';
 
 class KonserDuyurusu extends StatefulWidget {
   KonserDuyurusu({Key? key}) : super(key: key);
@@ -86,6 +87,7 @@ class _KonserDuyurusuState extends State<KonserDuyurusu> {
                         ),
                         child: TextButton(
                           onPressed: () {
+                            setState(() {});
                             showDialog(
                               context: context,
                               builder: (BuildContext context) {

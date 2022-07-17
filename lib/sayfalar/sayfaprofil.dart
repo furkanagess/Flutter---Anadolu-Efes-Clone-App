@@ -13,55 +13,72 @@ class _SayfaProfilState extends State<SayfaProfil> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+        child: Stack(
           children: [
-            Center(
-              child: Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Container(
-                  width: double.infinity,
-                  decoration: BoxDecoration(
-                    gradient: const LinearGradient(
-                      begin: Alignment.centerLeft,
-                      end: Alignment.centerRight,
-                      colors: <Color>[
-                        Color.fromARGB(255, 34, 5, 197),
-                        Color.fromARGB(200, 3, 12, 182),
-                      ],
-                    ),
-                    borderRadius: BorderRadius.circular(20.0),
-                  ),
-                  child: TextButton(
-                    onPressed: () {
-                      setState(() {
-                        puan = puan + 50;
-                      });
-                      showDialog(
-                        context: context,
-                        builder: (BuildContext context) {
-                          return const AlertDialog(
-                            content: Text(
-                              "        Kampanyaya Katıldınız   !",
-                              style: TextStyle(
-                                color: Color.fromARGB(255, 4, 3, 91),
-                              ),
-                            ),
-                          );
-                        },
-                      );
-                    },
-                    child: const Text(
-                      "Kampanyaya Katıl !",
-                      style: TextStyle(color: Colors.white),
-                    ),
-                  ),
+            CircleAvatar(
+              radius: 80,
+              backgroundImage: AssetImage("assets/resimler/larkinface.png"),
+              backgroundColor: Colors.black,
+            ),
+            Positioned(
+              bottom: 20,
+              right: 20,
+              child: InkWell(
+                onTap: () {
+                  showModalBottomSheet(
+                      context: context, builder: ((builder) => resimSecim()));
+                },
+                child: Icon(
+                  Icons.camera_alt,
+                  color: Colors.teal,
+                  size: 30,
                 ),
               ),
-            ),
-            Text(puan.toString()),
+            )
           ],
         ),
+      ),
+    );
+  }
+
+  Widget resimSecim() {
+    return Container(
+      height: 100,
+      width: MediaQuery.of(context).size.width,
+      margin: const EdgeInsets.symmetric(
+        horizontal: 20,
+        vertical: 20,
+      ),
+      child: Column(
+        children: [
+          Text(
+            "Profil Resmi Seçiniz",
+            style: TextStyle(
+              fontSize: 20,
+            ),
+          ),
+          SizedBox(
+            height: 20,
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              ElevatedButton.icon(
+                onPressed: () {},
+                icon: Icon(Icons.camera),
+                label: Text("Kamera"),
+              ),
+              SizedBox(
+                width: 25,
+              ),
+              ElevatedButton.icon(
+                onPressed: () {},
+                icon: Icon(Icons.image),
+                label: Text("Galeri"),
+              ),
+            ],
+          ),
+        ],
       ),
     );
   }

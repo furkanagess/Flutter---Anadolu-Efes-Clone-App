@@ -37,7 +37,15 @@ class _KayitSayfasiState extends State<KayitSayfasi> {
     return Scaffold(
       body: Center(
         child: Container(
-          color: const Color.fromARGB(255, 244, 250, 255),
+          height: double.infinity,
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter,
+              colors: [Color.fromARGB(255, 3, 7, 82), Colors.white],
+              stops: [0.20, 0.20],
+            ),
+          ),
           child: Column(
             children: [
               Expanded(
@@ -58,7 +66,7 @@ class _KayitSayfasiState extends State<KayitSayfasi> {
                             icon: const Icon(
                               Icons.arrow_back_sharp,
                               size: 35,
-                              color: Color.fromARGB(255, 34, 5, 197),
+                              color: Color.fromARGB(255, 227, 225, 234),
                             ),
                           ),
                         ],

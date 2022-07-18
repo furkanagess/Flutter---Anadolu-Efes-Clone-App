@@ -23,7 +23,15 @@ class _SifreUnuttumState extends State<SifreUnuttum> {
     return Scaffold(
       body: Center(
         child: Container(
-          color: Color.fromARGB(255, 244, 250, 255),
+          height: double.infinity,
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter,
+              colors: [Color.fromARGB(255, 3, 7, 82), Colors.white],
+              stops: [0.30, 0.30],
+            ),
+          ),
           child: Column(
             children: [
               Expanded(
@@ -44,7 +52,7 @@ class _SifreUnuttumState extends State<SifreUnuttum> {
                             icon: const Icon(
                               Icons.arrow_back_sharp,
                               size: 35,
-                              color: Color.fromARGB(255, 34, 5, 197),
+                              color: Color.fromARGB(255, 231, 234, 237),
                             ),
                           ),
                         ],

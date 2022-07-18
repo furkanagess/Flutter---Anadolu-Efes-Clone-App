@@ -43,6 +43,7 @@ class _SayfaProfilState extends State<SayfaProfil> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color.fromARGB(255, 3, 7, 82),
       body: Center(
         child: Column(
           children: [
@@ -69,7 +70,7 @@ class _SayfaProfilState extends State<SayfaProfil> {
                   left: 120,
                   child: RawMaterialButton(
                     elevation: 10,
-                    fillColor: Colors.amber,
+                    fillColor: Colors.white,
                     child: Icon(Icons.photo),
                     padding: EdgeInsets.all(15),
                     shape: CircleBorder(),
@@ -82,7 +83,7 @@ class _SayfaProfilState extends State<SayfaProfil> {
                               "Seçiniz",
                               style: TextStyle(
                                 fontWeight: FontWeight.w600,
-                                color: Colors.blue,
+                                color: Color.fromARGB(255, 27, 58, 84),
                               ),
                             ),
                             content: SingleChildScrollView(
@@ -138,7 +139,7 @@ class _SayfaProfilState extends State<SayfaProfil> {
                                           style: TextStyle(
                                             fontSize: 15,
                                           ),
-                                        )
+                                        ),
                                       ],
                                     ),
                                   )
@@ -151,6 +152,37 @@ class _SayfaProfilState extends State<SayfaProfil> {
                     },
                   ),
                 ),
+              ],
+            ),
+            Text(
+              "Furkan Çağlar",
+              style: TextStyle(
+                fontSize: 25,
+                fontWeight: FontWeight.bold,
+                color: Colors.white,
+              ),
+            ),
+            SizedBox(
+              height: 5,
+            ),
+            Text(
+              "21 Maça Katıldın, 250 Puan Kazandın",
+              style: TextStyle(
+                fontSize: 15,
+                fontWeight: FontWeight.bold,
+                color: Colors.blue,
+              ),
+            ),
+            Container(
+              height: 20,
+            ),
+            Row(
+              children: [
+                Container(
+                  height: 5,
+                  width: 360,
+                  color: Colors.red,
+                )
               ],
             ),
           ],

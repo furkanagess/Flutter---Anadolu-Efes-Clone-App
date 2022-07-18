@@ -43,115 +43,118 @@ class _SayfaProfilState extends State<SayfaProfil> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
-          SizedBox(
-            height: 30,
-          ),
-          Stack(
-            children: [
-              Container(
-                margin: EdgeInsets.symmetric(vertical: 30, horizontal: 30),
-                child: CircleAvatar(
-                  radius: 71,
-                  backgroundColor: Colors.white,
+      body: Center(
+        child: Column(
+          children: [
+            SizedBox(
+              height: 30,
+            ),
+            Stack(
+              children: [
+                Container(
+                  margin: EdgeInsets.symmetric(vertical: 30, horizontal: 30),
                   child: CircleAvatar(
-                    radius: 65,
-                    backgroundImage:
-                        _pickedImage == null ? null : FileImage(_pickedImage!),
+                    radius: 71,
+                    backgroundColor: Colors.white,
+                    child: CircleAvatar(
+                      radius: 65,
+                      backgroundImage: _pickedImage == null
+                          ? null
+                          : FileImage(_pickedImage!),
+                    ),
                   ),
                 ),
-              ),
-              Positioned(
-                top: 120,
-                left: 120,
-                child: RawMaterialButton(
-                  elevation: 10,
-                  fillColor: Colors.amber,
-                  child: Icon(Icons.photo),
-                  padding: EdgeInsets.all(15),
-                  shape: CircleBorder(),
-                  onPressed: () {
-                    showDialog(
-                      context: context,
-                      builder: (BuildContext context) {
-                        return AlertDialog(
-                          title: Text(
-                            "Seçiniz",
-                            style: TextStyle(
-                              fontWeight: FontWeight.w600,
-                              color: Colors.blue,
+                Positioned(
+                  top: 120,
+                  left: 120,
+                  child: RawMaterialButton(
+                    elevation: 10,
+                    fillColor: Colors.amber,
+                    child: Icon(Icons.photo),
+                    padding: EdgeInsets.all(15),
+                    shape: CircleBorder(),
+                    onPressed: () {
+                      showDialog(
+                        context: context,
+                        builder: (BuildContext context) {
+                          return AlertDialog(
+                            title: Text(
+                              "Seçiniz",
+                              style: TextStyle(
+                                fontWeight: FontWeight.w600,
+                                color: Colors.blue,
+                              ),
                             ),
-                          ),
-                          content: SingleChildScrollView(
-                            child: ListBody(
-                              children: [
-                                InkWell(
-                                  onTap: _pickImageCamera,
-                                  splashColor: Colors.deepOrange,
-                                  child: Row(
-                                    children: [
-                                      Padding(
-                                        padding: const EdgeInsets.all(8.0),
-                                        child: Icon(Icons.camera),
-                                      ),
-                                      Text(
-                                        "Kamera",
-                                        style: TextStyle(
-                                          fontSize: 15,
+                            content: SingleChildScrollView(
+                              child: ListBody(
+                                children: [
+                                  InkWell(
+                                    onTap: _pickImageCamera,
+                                    splashColor: Colors.deepOrange,
+                                    child: Row(
+                                      children: [
+                                        Padding(
+                                          padding: const EdgeInsets.all(8.0),
+                                          child: Icon(Icons.camera),
                                         ),
-                                      )
-                                    ],
+                                        Text(
+                                          "Kamera",
+                                          style: TextStyle(
+                                            fontSize: 15,
+                                          ),
+                                        )
+                                      ],
+                                    ),
                                   ),
-                                ),
-                                InkWell(
-                                  onTap: _pickImageGallery,
-                                  splashColor: Colors.deepOrange,
-                                  child: Row(
-                                    children: [
-                                      Padding(
-                                        padding: const EdgeInsets.all(8.0),
-                                        child: Icon(Icons.image),
-                                      ),
-                                      Text(
-                                        "Galeri",
-                                        style: TextStyle(
-                                          fontSize: 15,
+                                  InkWell(
+                                    onTap: _pickImageGallery,
+                                    splashColor: Colors.deepOrange,
+                                    child: Row(
+                                      children: [
+                                        Padding(
+                                          padding: const EdgeInsets.all(8.0),
+                                          child: Icon(Icons.image),
                                         ),
-                                      )
-                                    ],
+                                        Text(
+                                          "Galeri",
+                                          style: TextStyle(
+                                            fontSize: 15,
+                                          ),
+                                        )
+                                      ],
+                                    ),
                                   ),
-                                ),
-                                InkWell(
-                                  onTap: () {},
-                                  splashColor: Colors.deepOrange,
-                                  child: Row(
-                                    children: [
-                                      Padding(
-                                        padding: const EdgeInsets.all(8.0),
-                                        child: Icon(Icons.remove),
-                                      ),
-                                      Text(
-                                        "Kaldır",
-                                        style: TextStyle(
-                                          fontSize: 15,
+                                  InkWell(
+                                    onTap: () {},
+                                    splashColor: Colors.deepOrange,
+                                    child: Row(
+                                      children: [
+                                        Padding(
+                                          padding: const EdgeInsets.all(8.0),
+                                          child: Icon(Icons.remove),
                                         ),
-                                      )
-                                    ],
-                                  ),
-                                )
-                              ],
+                                        Text(
+                                          "Kaldır",
+                                          style: TextStyle(
+                                            fontSize: 15,
+                                          ),
+                                        )
+                                      ],
+                                    ),
+                                  )
+                                ],
+                              ),
                             ),
-                          ),
-                        );
-                      },
-                    );
-                  },
+                          );
+                        },
+                      );
+                    },
+                  ),
                 ),
-              ),
-            ],
-          ),
-        ],
+              ],
+            ),
+          ],
+        ),
       ),
     );
   }

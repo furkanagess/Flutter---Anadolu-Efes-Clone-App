@@ -1,80 +1,153 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
+import 'package:image_picker/image_picker.dart';
 
 class SayfaProfil extends StatefulWidget {
-  SayfaProfil({Key? key}) : super(key: key);
+  const SayfaProfil({Key? key}) : super(key: key);
 
   @override
   State<SayfaProfil> createState() => _SayfaProfilState();
 }
 
 class _SayfaProfilState extends State<SayfaProfil> {
-  static int puan = 0;
+  File? _pickedImage;
+
+  void _pickImageCamera() async {
+    final picker = ImagePicker();
+    final pickedImage = await picker.pickImage(source: ImageSource.camera);
+    final pickedImageFile = File(pickedImage!.path);
+    setState(() {
+      _pickedImage = pickedImageFile;
+    });
+    Navigator.pop(context);
+  }
+
+  void _pickImageGallery() async {
+    final picker = ImagePicker();
+    final pickedImage = await picker.pickImage(source: ImageSource.gallery);
+    final pickedImageFile = File(pickedImage!.path);
+    setState(() {
+      _pickedImage = pickedImageFile;
+    });
+    Navigator.pop(context);
+  }
+
+  void _remove() {
+    setState(() {
+      _pickedImage == null;
+    });
+    Navigator.pop(context);
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Stack(
-          children: [
-            CircleAvatar(
-              radius: 80,
-              backgroundImage: AssetImage("assets/resimler/larkinface.png"),
-              backgroundColor: Colors.black,
-            ),
-            Positioned(
-              bottom: 20,
-              right: 20,
-              child: InkWell(
-                onTap: () {
-                  showModalBottomSheet(
-                      context: context, builder: ((builder) => resimSecim()));
-                },
-                child: Icon(
-                  Icons.camera_alt,
-                  color: Colors.teal,
-                  size: 30,
+      body: Column(
+        children: [
+          SizedBox(
+            height: 30,
+          ),
+          Stack(
+            children: [
+              Container(
+                margin: EdgeInsets.symmetric(vertical: 30, horizontal: 30),
+                child: CircleAvatar(
+                  radius: 71,
+                  backgroundColor: Colors.white,
+                  child: CircleAvatar(
+                    radius: 65,
+                    backgroundImage:
+                        _pickedImage == null ? null : FileImage(_pickedImage!),
+                  ),
                 ),
               ),
-            )
-          ],
-        ),
-      ),
-    );
-  }
-
-  Widget resimSecim() {
-    return Container(
-      height: 100,
-      width: MediaQuery.of(context).size.width,
-      margin: const EdgeInsets.symmetric(
-        horizontal: 20,
-        vertical: 20,
-      ),
-      child: Column(
-        children: [
-          Text(
-            "Profil Resmi Seçiniz",
-            style: TextStyle(
-              fontSize: 20,
-            ),
-          ),
-          SizedBox(
-            height: 20,
-          ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              ElevatedButton.icon(
-                onPressed: () {},
-                icon: Icon(Icons.camera),
-                label: Text("Kamera"),
-              ),
-              SizedBox(
-                width: 25,
-              ),
-              ElevatedButton.icon(
-                onPressed: () {},
-                icon: Icon(Icons.image),
-                label: Text("Galeri"),
+              Positioned(
+                top: 120,
+                left: 120,
+                child: RawMaterialButton(
+                  elevation: 10,
+                  fillColor: Colors.amber,
+                  child: Icon(Icons.photo),
+                  padding: EdgeInsets.all(15),
+                  shape: CircleBorder(),
+                  onPressed: () {
+                    showDialog(
+                      context: context,
+                      builder: (BuildContext context) {
+                        return AlertDialog(
+                          title: Text(
+                            "Seçiniz",
+                            style: TextStyle(
+                              fontWeight: FontWeight.w600,
+                              color: Colors.blue,
+                            ),
+                          ),
+                          content: SingleChildScrollView(
+                            child: ListBody(
+                              children: [
+                                InkWell(
+                                  onTap: _pickImageCamera,
+                                  splashColor: Colors.deepOrange,
+                                  child: Row(
+                                    children: [
+                                      Padding(
+                                        padding: const EdgeInsets.all(8.0),
+                                        child: Icon(Icons.camera),
+                                      ),
+                                      Text(
+                                        "Kamera",
+                                        style: TextStyle(
+                                          fontSize: 15,
+                                        ),
+                                      )
+                                    ],
+                                  ),
+                                ),
+                                InkWell(
+                                  onTap: _pickImageGallery,
+                                  splashColor: Colors.deepOrange,
+                                  child: Row(
+                                    children: [
+                                      Padding(
+                                        padding: const EdgeInsets.all(8.0),
+                                        child: Icon(Icons.image),
+                                      ),
+                                      Text(
+                                        "Galeri",
+                                        style: TextStyle(
+                                          fontSize: 15,
+                                        ),
+                                      )
+                                    ],
+                                  ),
+                                ),
+                                InkWell(
+                                  onTap: () {},
+                                  splashColor: Colors.deepOrange,
+                                  child: Row(
+                                    children: [
+                                      Padding(
+                                        padding: const EdgeInsets.all(8.0),
+                                        child: Icon(Icons.remove),
+                                      ),
+                                      Text(
+                                        "Kaldır",
+                                        style: TextStyle(
+                                          fontSize: 15,
+                                        ),
+                                      )
+                                    ],
+                                  ),
+                                )
+                              ],
+                            ),
+                          ),
+                        );
+                      },
+                    );
+                  },
+                ),
               ),
             ],
           ),

@@ -190,9 +190,15 @@ class _SayfaProfilState extends State<SayfaProfil> {
                     height: 5,
                     width: 360,
                     color: Colors.red,
-                  )
+                  ),
                 ],
               ),
+              Text(
+                "Fan Club No : 202006091011033761",
+                style: TextStyle(
+                  fontSize: 30,
+                ),
+              )
             ],
           ),
         ),

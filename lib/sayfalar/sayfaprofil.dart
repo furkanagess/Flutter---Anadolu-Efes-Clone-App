@@ -49,8 +49,14 @@ class _SayfaProfilState extends State<SayfaProfil> {
           gradient: LinearGradient(
               begin: Alignment.topCenter,
               end: Alignment.bottomCenter,
-              colors: [Color.fromARGB(255, 3, 7, 82), Colors.white],
-              stops: [0.42111, 0.42111]),
+              colors: [
+                Color.fromARGB(255, 3, 7, 82),
+                Color.fromARGB(255, 215, 214, 214)
+              ],
+              stops: [
+                0.42111,
+                0.42111
+              ]),
         ),
         child: Center(
           child: Column(
@@ -193,12 +199,235 @@ class _SayfaProfilState extends State<SayfaProfil> {
                   ),
                 ],
               ),
-              Text(
-                "Fan Club No : 202006091011033761",
-                style: TextStyle(
-                  fontSize: 30,
+              Padding(
+                padding: const EdgeInsets.fromLTRB(15, 2, 2, 2),
+                child: Row(
+                  children: [
+                    Text(
+                      "Fan Club No :  ",
+                      style: TextStyle(
+                        fontSize: 20,
+                        color: Colors.blueGrey,
+                      ),
+                    ),
+                    Text(
+                      "202006091011033761",
+                      style: TextStyle(
+                        fontSize: 20,
+                        color: Colors.blue,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ],
                 ),
-              )
+              ),
+              SizedBox(
+                height: 30,
+              ),
+              Container(
+                decoration: BoxDecoration(color: Colors.white),
+                width: 300,
+                child: Padding(
+                  padding: const EdgeInsets.fromLTRB(15, 5, 0, 0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      Text(
+                        "Puan Hareketlerim",
+                        style: TextStyle(
+                          fontSize: 15,
+                          color: Colors.blueGrey,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              Container(
+                width: 300,
+                decoration: BoxDecoration(color: Colors.white),
+                child: Divider(
+                  color: Color.fromARGB(255, 19, 2, 81),
+                ),
+              ),
+              Container(
+                decoration: BoxDecoration(color: Colors.white),
+                width: 300,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    Container(
+                      width: 170,
+                      child: Padding(
+                        padding: const EdgeInsets.fromLTRB(15, 0, 0, 0),
+                        child: Text(
+                          "IF Beşiktaş 29 Temmuz Onur Özdemir - sakin tribute konserinden Fan Club'lılara Hediye Biletler!",
+                          style: TextStyle(
+                            color: Color.fromARGB(255, 4, 3, 91),
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                    ),
+                    SizedBox(
+                      width: 60,
+                    ),
+                    Text(
+                      "- 250",
+                      style: TextStyle(
+                        color: Colors.blue,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 25,
+                      ),
+                    )
+                  ],
+                ),
+              ),
+              Container(
+                width: 300,
+                decoration: BoxDecoration(color: Colors.white),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(15, 0, 0, 0),
+                      child: Text(
+                        "1 Temmuz 2022, 17:09",
+                        style: TextStyle(
+                          color: Colors.blueGrey,
+                          fontSize: 12,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Container(
+                width: 300,
+                decoration: BoxDecoration(color: Colors.white),
+                child: Divider(
+                  color: Color.fromARGB(255, 19, 2, 81),
+                ),
+              ),
+              Container(
+                decoration: BoxDecoration(color: Colors.white),
+                width: 300,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    Container(
+                      width: 170,
+                      child: Padding(
+                        padding: const EdgeInsets.fromLTRB(15, 0, 0, 0),
+                        child: Text(
+                          "IF Beşiktaş 9 Şubat Dedublüman Konserinden Fan Club'lılara Hediye Biletler!",
+                          style: TextStyle(
+                            color: Color.fromARGB(255, 4, 3, 91),
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                    ),
+                    SizedBox(
+                      width: 60,
+                    ),
+                    Text(
+                      "- 250",
+                      style: TextStyle(
+                        color: Colors.blue,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 25,
+                      ),
+                    )
+                  ],
+                ),
+              ),
+              Container(
+                width: 300,
+                decoration: BoxDecoration(color: Colors.white),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(15, 0, 0, 0),
+                      child: Text(
+                        "3 Şubat 2022, 16:49",
+                        style: TextStyle(
+                          color: Colors.blueGrey,
+                          fontSize: 12,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Container(
+                width: 300,
+                decoration: BoxDecoration(color: Colors.white),
+                child: Divider(
+                  color: Color.fromARGB(255, 19, 2, 81),
+                ),
+              ),
+              Container(
+                decoration: BoxDecoration(color: Colors.white),
+                width: 300,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    Container(
+                      width: 170,
+                      child: Padding(
+                        padding: const EdgeInsets.fromLTRB(15, 0, 0, 0),
+                        child: Text(
+                          "Anadolu ISUZU'dan İmzalı Forma Kazanma Şansı 'Taktik Tahtası' Yarışmasında ! ",
+                          style: TextStyle(
+                            color: Color.fromARGB(255, 4, 3, 91),
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                    ),
+                    SizedBox(
+                      width: 60,
+                    ),
+                    Text(
+                      "- 10",
+                      style: TextStyle(
+                        color: Colors.blue,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 25,
+                      ),
+                    )
+                  ],
+                ),
+              ),
+              Container(
+                width: 300,
+                decoration: BoxDecoration(color: Colors.white),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(15, 2, 0, 0),
+                      child: Text(
+                        "22 Nisan 2022, 15:43",
+                        style: TextStyle(
+                          color: Colors.blueGrey,
+                          fontSize: 12,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Container(
+                width: 300,
+                decoration: BoxDecoration(color: Colors.white),
+                child: Divider(
+                  color: Color.fromARGB(255, 19, 2, 81),
+                ),
+              ),
             ],
           ),
         ),

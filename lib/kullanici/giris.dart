@@ -107,7 +107,6 @@ class _GirisSayfasiState extends State<GirisSayfasi> {
                                   if (_girisFormu.currentState!.validate()) {
                                     Navigator.pushNamed(context, "/profil");
                                   }
-                                  ;
                                 },
                                 child: const Text(
                                   "Giriş Yap",

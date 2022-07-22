@@ -1,4 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:ornek_kullanim1/drawer/bilet.dart';
+import 'package:ornek_kullanim1/drawer/efestv.dart';
+import 'package:ornek_kullanim1/drawer/iletisim.dart';
+import 'package:ornek_kullanim1/drawer/istatistik.dart';
+import 'package:ornek_kullanim1/drawer/kadro.dart';
+import 'package:ornek_kullanim1/drawer/salongidis.dart';
+import 'package:ornek_kullanim1/drawer/takvim.dart';
+import 'package:ornek_kullanim1/drawer/yard%C4%B1m.dart';
 import 'package:ornek_kullanim1/kullanici/profil.dart';
 
 import 'package:ornek_kullanim1/sayfalar/anasayfa.dart';
@@ -99,7 +107,7 @@ class _MenuSayfasiState extends State<MenuSayfasi> {
             ),
             onTap: () {
               Navigator.of(context).pushReplacement(
-                  MaterialPageRoute(builder: (context) => ProfilSayfasi()));
+                  MaterialPageRoute(builder: (context) => Takvim()));
             },
           ),
           Divider(
@@ -116,24 +124,7 @@ class _MenuSayfasiState extends State<MenuSayfasi> {
             ),
             onTap: () {
               Navigator.of(context).pushReplacement(
-                  MaterialPageRoute(builder: (context) => ProfilSayfasi()));
-            },
-          ),
-          Divider(
-            color: Colors.white,
-          ),
-          ListTile(
-            leading: const Icon(
-              Icons.sports_basketball,
-              color: Colors.white,
-            ),
-            title: Text(
-              "Anadolu Efes Fan Club",
-              style: TextStyle(color: Colors.white),
-            ),
-            onTap: () {
-              Navigator.of(context).pushReplacement(
-                  MaterialPageRoute(builder: (context) => ProfilSayfasi()));
+                  MaterialPageRoute(builder: (context) => Bilet()));
             },
           ),
           Divider(
@@ -150,7 +141,7 @@ class _MenuSayfasiState extends State<MenuSayfasi> {
             ),
             onTap: () {
               Navigator.of(context).pushReplacement(
-                  MaterialPageRoute(builder: (context) => ProfilSayfasi()));
+                  MaterialPageRoute(builder: (context) => Kadro()));
             },
           ),
           Divider(
@@ -167,7 +158,7 @@ class _MenuSayfasiState extends State<MenuSayfasi> {
             ),
             onTap: () {
               Navigator.of(context).pushReplacement(
-                  MaterialPageRoute(builder: (context) => ProfilSayfasi()));
+                  MaterialPageRoute(builder: (context) => Istatistik()));
             },
           ),
           Divider(
@@ -184,7 +175,7 @@ class _MenuSayfasiState extends State<MenuSayfasi> {
             ),
             onTap: () {
               Navigator.of(context).pushReplacement(
-                  MaterialPageRoute(builder: (context) => ProfilSayfasi()));
+                  MaterialPageRoute(builder: (context) => EfesTV()));
             },
           ),
           Divider(
@@ -201,7 +192,7 @@ class _MenuSayfasiState extends State<MenuSayfasi> {
             ),
             onTap: () {
               Navigator.of(context).pushReplacement(
-                  MaterialPageRoute(builder: (context) => ProfilSayfasi()));
+                  MaterialPageRoute(builder: (context) => SalonGidis()));
             },
           ),
           Divider(
@@ -218,7 +209,7 @@ class _MenuSayfasiState extends State<MenuSayfasi> {
             ),
             onTap: () {
               Navigator.of(context).pushReplacement(
-                  MaterialPageRoute(builder: (context) => ProfilSayfasi()));
+                  MaterialPageRoute(builder: (context) => Yardim()));
             },
           ),
           Divider(
@@ -235,7 +226,7 @@ class _MenuSayfasiState extends State<MenuSayfasi> {
             ),
             onTap: () {
               Navigator.of(context).pushReplacement(
-                  MaterialPageRoute(builder: (context) => ProfilSayfasi()));
+                  MaterialPageRoute(builder: (context) => Iletisim()));
             },
           ),
           Divider(

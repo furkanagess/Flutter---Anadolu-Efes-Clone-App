@@ -193,7 +193,7 @@ class _TakvimState extends State<Takvim> {
                         Column(
                           children: [
                             Image.asset(
-                              "assets/resimler/kizilyildiz.png",
+                              "assets/resimler/monako.png",
                               scale: 2.4,
                             ),
                             SizedBox(

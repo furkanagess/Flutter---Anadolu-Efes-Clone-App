@@ -408,13 +408,13 @@ class _TakvimState extends State<Takvim> {
                           style: TextStyle(fontSize: 20),
                         ),
                         SizedBox(
-                          width: 50,
+                          width: 20,
                         ),
                         Column(
                           children: [
                             Image.asset(
                               "assets/resimler/alba-berlin.png",
-                              scale: 2.4,
+                              scale: 3,
                             ),
                             SizedBox(
                               height: 5,
@@ -518,19 +518,19 @@ class _TakvimState extends State<Takvim> {
                           style: TextStyle(fontSize: 20),
                         ),
                         SizedBox(
-                          width: 50,
+                          width: 40,
                         ),
                         Column(
                           children: [
                             Image.asset(
-                              "assets/resimler/kizilyildiz.png",
-                              scale: 2.4,
+                              "assets/resimler/fenerbahce-beko.png",
+                              scale: 3,
                             ),
                             SizedBox(
                               height: 5,
                             ),
                             Text(
-                              "Kızılyıldız",
+                              "Fenerbahçe Beko",
                               style: TextStyle(
                                 color: Color.fromARGB(255, 4, 3, 91),
                                 fontWeight: FontWeight.bold,
@@ -628,19 +628,19 @@ class _TakvimState extends State<Takvim> {
                           style: TextStyle(fontSize: 20),
                         ),
                         SizedBox(
-                          width: 50,
+                          width: 30,
                         ),
                         Column(
                           children: [
                             Image.asset(
-                              "assets/resimler/kizilyildiz.png",
-                              scale: 2.4,
+                              "assets/resimler/bayern-munih.png",
+                              scale: 3,
                             ),
                             SizedBox(
                               height: 5,
                             ),
                             Text(
-                              "Kızılyıldız",
+                              "Bayern Munih",
                               style: TextStyle(
                                 color: Color.fromARGB(255, 4, 3, 91),
                                 fontWeight: FontWeight.bold,
@@ -738,19 +738,19 @@ class _TakvimState extends State<Takvim> {
                           style: TextStyle(fontSize: 20),
                         ),
                         SizedBox(
-                          width: 50,
+                          width: 30,
                         ),
                         Column(
                           children: [
                             Image.asset(
-                              "assets/resimler/kizilyildiz.png",
-                              scale: 2.4,
+                              "assets/resimler/real-madrid.png",
+                              scale: 3,
                             ),
                             SizedBox(
                               height: 5,
                             ),
                             Text(
-                              "Kızılyıldız",
+                              "Real Madrid",
                               style: TextStyle(
                                 color: Color.fromARGB(255, 4, 3, 91),
                                 fontWeight: FontWeight.bold,
@@ -848,19 +848,19 @@ class _TakvimState extends State<Takvim> {
                           style: TextStyle(fontSize: 20),
                         ),
                         SizedBox(
-                          width: 50,
+                          width: 30,
                         ),
                         Column(
                           children: [
                             Image.asset(
-                              "assets/resimler/kizilyildiz.png",
-                              scale: 2.4,
+                              "assets/resimler/fc-barcelona.png",
+                              scale: 3,
                             ),
                             SizedBox(
                               height: 5,
                             ),
                             Text(
-                              "Kızılyıldız",
+                              "FC Barcelona",
                               style: TextStyle(
                                 color: Color.fromARGB(255, 4, 3, 91),
                                 fontWeight: FontWeight.bold,

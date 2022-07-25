@@ -12,6 +12,15 @@ class _TakvimState extends State<Takvim> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        leading: GestureDetector(
+          onTap: () {
+            Navigator.pushNamed(context, "/profil");
+          },
+          child: Icon(
+            Icons.arrow_back_sharp,
+            color: Colors.blue,
+          ),
+        ),
         centerTitle: true,
         backgroundColor: Colors.white,
         title: Text(
@@ -142,14 +151,14 @@ class _TakvimState extends State<Takvim> {
                       height: 5,
                     ),
                     Text(
-                      "7 Ekim 2022, 20:30",
+                      "13 Ekim 2022, 20:00",
                       style: TextStyle(
                         color: Colors.red,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
                     Text(
-                      "Euroleague - Sinan Erdem Spor Salonu - S Sport",
+                      "Euroleague - Stade Louis ll - S Sport",
                       style: TextStyle(
                         color: Colors.grey,
                       ),
@@ -252,7 +261,7 @@ class _TakvimState extends State<Takvim> {
                       height: 5,
                     ),
                     Text(
-                      "7 Ekim 2022, 20:30",
+                      "18 Ekim 2022, 20:30",
                       style: TextStyle(
                         color: Colors.red,
                         fontWeight: FontWeight.bold,
@@ -362,7 +371,7 @@ class _TakvimState extends State<Takvim> {
                       height: 5,
                     ),
                     Text(
-                      "7 Ekim 2022, 20:30",
+                      "21 Ekim 2022, 20:30",
                       style: TextStyle(
                         color: Colors.red,
                         fontWeight: FontWeight.bold,
@@ -472,7 +481,7 @@ class _TakvimState extends State<Takvim> {
                       height: 5,
                     ),
                     Text(
-                      "7 Ekim 2022, 20:30",
+                      "28 Ekim 2022, 20:30",
                       style: TextStyle(
                         color: Colors.red,
                         fontWeight: FontWeight.bold,
@@ -582,14 +591,14 @@ class _TakvimState extends State<Takvim> {
                       height: 5,
                     ),
                     Text(
-                      "7 Ekim 2022, 20:30",
+                      "3 Kasım 2022, 20:30",
                       style: TextStyle(
                         color: Colors.red,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
                     Text(
-                      "Euroleague - Sinan Erdem Spor Salonu - S Sport",
+                      "Euroleague - Audi Dome - S Sport",
                       style: TextStyle(
                         color: Colors.grey,
                       ),
@@ -692,14 +701,14 @@ class _TakvimState extends State<Takvim> {
                       height: 5,
                     ),
                     Text(
-                      "7 Ekim 2022, 20:30",
+                      "10 Kasım 2022, 20:30",
                       style: TextStyle(
                         color: Colors.red,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
                     Text(
-                      "Euroleague - Sinan Erdem Spor Salonu - S Sport",
+                      "Euroleague - Wizink Center - S Sport",
                       style: TextStyle(
                         color: Colors.grey,
                       ),
@@ -802,7 +811,7 @@ class _TakvimState extends State<Takvim> {
                       height: 5,
                     ),
                     Text(
-                      "7 Ekim 2022, 20:30",
+                      "17 Kasım 2022, 20:30",
                       style: TextStyle(
                         color: Colors.red,
                         fontWeight: FontWeight.bold,
@@ -912,14 +921,14 @@ class _TakvimState extends State<Takvim> {
                       height: 5,
                     ),
                     Text(
-                      "7 Ekim 2022, 20:30",
+                      "22 Kasım 2022, 20:30",
                       style: TextStyle(
                         color: Colors.red,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
                     Text(
-                      "Euroleague - Sinan Erdem Spor Salonu - S Sport",
+                      "Euroleague - Mediolanum Forum - S Sport",
                       style: TextStyle(
                         color: Colors.grey,
                       ),
@@ -958,19 +967,19 @@ class _TakvimState extends State<Takvim> {
                           style: TextStyle(fontSize: 20),
                         ),
                         SizedBox(
-                          width: 50,
+                          width: 30,
                         ),
                         Column(
                           children: [
                             Image.asset(
-                              "assets/resimler/kizilyildiz.png",
-                              scale: 2.4,
+                              "assets/resimler/milan.png",
+                              scale: 3,
                             ),
                             SizedBox(
                               height: 5,
                             ),
                             Text(
-                              "Kızılyıldız",
+                              "AX Milan",
                               style: TextStyle(
                                 color: Color.fromARGB(255, 4, 3, 91),
                                 fontWeight: FontWeight.bold,
@@ -1022,14 +1031,14 @@ class _TakvimState extends State<Takvim> {
                       height: 5,
                     ),
                     Text(
-                      "7 Ekim 2022, 20:30",
+                      "25 Kasım 2022, 20:30",
                       style: TextStyle(
                         color: Colors.red,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
                     Text(
-                      "Euroleague - Sinan Erdem Spor Salonu - S Sport",
+                      "Euroleague - Virtus Segafredo Arena - S Sport",
                       style: TextStyle(
                         color: Colors.grey,
                       ),
@@ -1068,19 +1077,19 @@ class _TakvimState extends State<Takvim> {
                           style: TextStyle(fontSize: 20),
                         ),
                         SizedBox(
-                          width: 50,
+                          width: 30,
                         ),
                         Column(
                           children: [
                             Image.asset(
-                              "assets/resimler/kizilyildiz.png",
-                              scale: 2.4,
+                              "assets/resimler/bologna.png",
+                              scale: 3,
                             ),
                             SizedBox(
                               height: 5,
                             ),
                             Text(
-                              "Kızılyıldız",
+                              "Virtus Bologna",
                               style: TextStyle(
                                 color: Color.fromARGB(255, 4, 3, 91),
                                 fontWeight: FontWeight.bold,
@@ -1132,7 +1141,7 @@ class _TakvimState extends State<Takvim> {
                       height: 5,
                     ),
                     Text(
-                      "7 Ekim 2022, 20:30",
+                      "1 Aralık 2022, 20:30",
                       style: TextStyle(
                         color: Colors.red,
                         fontWeight: FontWeight.bold,
@@ -1178,19 +1187,19 @@ class _TakvimState extends State<Takvim> {
                           style: TextStyle(fontSize: 20),
                         ),
                         SizedBox(
-                          width: 50,
+                          width: 30,
                         ),
                         Column(
                           children: [
                             Image.asset(
-                              "assets/resimler/kizilyildiz.png",
-                              scale: 2.4,
+                              "assets/resimler/olympiacos.png",
+                              scale: 3,
                             ),
                             SizedBox(
                               height: 5,
                             ),
                             Text(
-                              "Kızılyıldız",
+                              "Olympiacos",
                               style: TextStyle(
                                 color: Color.fromARGB(255, 4, 3, 91),
                                 fontWeight: FontWeight.bold,
@@ -1231,6 +1240,119 @@ class _TakvimState extends State<Takvim> {
                   ],
                 ),
               ),
+              SizedBox(
+                height: 50,
+              ),
+              Card(
+                color: Color.fromARGB(255, 254, 254, 254),
+                child: Column(
+                  children: [
+                    SizedBox(
+                      height: 5,
+                    ),
+                    Text(
+                      "9 Aralık 2022, 20:30",
+                      style: TextStyle(
+                        color: Colors.red,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    Text(
+                      "Euroleague - Zalgrio Arena - S Sport",
+                      style: TextStyle(
+                        color: Colors.grey,
+                      ),
+                    ),
+                    SizedBox(
+                      height: 20,
+                    ),
+                    Row(
+                      children: [
+                        SizedBox(
+                          width: 20,
+                        ),
+                        Column(
+                          children: [
+                            Image.asset(
+                              "assets/resimler/efeslogo.png",
+                              scale: 3,
+                            ),
+                            SizedBox(
+                              height: 5,
+                            ),
+                            Text(
+                              "Anadolu Efes",
+                              style: TextStyle(
+                                color: Color.fromARGB(255, 4, 3, 91),
+                                fontWeight: FontWeight.bold,
+                              ),
+                            )
+                          ],
+                        ),
+                        SizedBox(
+                          width: 60,
+                        ),
+                        Text(
+                          "- : -",
+                          style: TextStyle(fontSize: 20),
+                        ),
+                        SizedBox(
+                          width: 30,
+                        ),
+                        Column(
+                          children: [
+                            Image.asset(
+                              "assets/resimler/zalgris.png",
+                              scale: 3,
+                            ),
+                            SizedBox(
+                              height: 5,
+                            ),
+                            Text(
+                              "Zalgiris Kaunas",
+                              style: TextStyle(
+                                color: Color.fromARGB(255, 4, 3, 91),
+                                fontWeight: FontWeight.bold,
+                              ),
+                            )
+                          ],
+                        ),
+                      ],
+                    ),
+                    SizedBox(
+                      height: 20,
+                    ),
+                    Container(
+                      height: 40,
+                      width: 150,
+                      decoration: BoxDecoration(
+                        gradient: const LinearGradient(
+                          begin: Alignment.centerLeft,
+                          end: Alignment.centerRight,
+                          colors: <Color>[
+                            Color.fromARGB(255, 2, 79, 114),
+                            Color.fromARGB(255, 54, 136, 174),
+                          ],
+                        ),
+                        borderRadius: BorderRadius.circular(10.0),
+                      ),
+                      child: TextButton(
+                        onPressed: () {},
+                        child: const Text(
+                          "Hatırlatıcı Oluştur",
+                          style: TextStyle(color: Colors.white),
+                        ),
+                      ),
+                    ),
+                    SizedBox(
+                      height: 5,
+                    ),
+                  ],
+                ),
+              ),
+              SizedBox(
+                height: 20,
+              )
             ],
           ),
         ),
